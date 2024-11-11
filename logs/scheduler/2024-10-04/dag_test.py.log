@@ -1,0 +1,175 @@
+[2024-10-04T15:35:31.255-0300] {processor.py:186} INFO - Started process (PID=104334) to work on /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:35:31.256-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_test.py for tasks to queue
+[2024-10-04T15:35:31.257-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:35:31.257-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:35:31.268-0300] {processor.py:925} INFO - DAG(s) 'dag_test' retrieved from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:35:31.286-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:35:31.286-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:35:31.299-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:35:31.298-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_test to None, run_after=None
+[2024-10-04T15:35:31.318-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_test.py took 0.068 seconds
+[2024-10-04T15:36:08.265-0300] {processor.py:186} INFO - Started process (PID=104975) to work on /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:36:08.267-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_test.py for tasks to queue
+[2024-10-04T15:36:08.269-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:36:08.268-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:36:08.278-0300] {processor.py:925} INFO - DAG(s) 'dag_test' retrieved from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:36:08.292-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:36:08.291-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:36:08.306-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:36:08.306-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_test to None, run_after=None
+[2024-10-04T15:36:08.326-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_test.py took 0.065 seconds
+[2024-10-04T15:36:39.039-0300] {processor.py:186} INFO - Started process (PID=105267) to work on /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:36:39.040-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_test.py for tasks to queue
+[2024-10-04T15:36:39.042-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:36:39.042-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:36:39.050-0300] {processor.py:925} INFO - DAG(s) 'dag_test' retrieved from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:36:39.063-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:36:39.063-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:36:39.073-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:36:39.073-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_test to None, run_after=None
+[2024-10-04T15:36:39.091-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_test.py took 0.056 seconds
+[2024-10-04T15:37:32.893-0300] {processor.py:186} INFO - Started process (PID=105830) to work on /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:37:32.894-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_test.py for tasks to queue
+[2024-10-04T15:37:32.896-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:37:32.896-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:37:32.905-0300] {processor.py:925} INFO - DAG(s) 'dag_test' retrieved from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:37:32.919-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:37:32.918-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:37:32.931-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:37:32.931-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_test to None, run_after=None
+[2024-10-04T15:37:32.948-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_test.py took 0.061 seconds
+[2024-10-04T15:38:03.088-0300] {processor.py:186} INFO - Started process (PID=106144) to work on /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:38:03.089-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_test.py for tasks to queue
+[2024-10-04T15:38:03.090-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:38:03.090-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:38:03.097-0300] {processor.py:925} INFO - DAG(s) 'dag_test' retrieved from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:38:03.109-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:38:03.109-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:38:03.117-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:38:03.116-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_test to None, run_after=None
+[2024-10-04T15:38:03.131-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_test.py took 0.047 seconds
+[2024-10-04T15:38:33.521-0300] {processor.py:186} INFO - Started process (PID=106375) to work on /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:38:33.522-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_test.py for tasks to queue
+[2024-10-04T15:38:33.524-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:38:33.523-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:38:33.530-0300] {processor.py:925} INFO - DAG(s) 'dag_test' retrieved from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:38:33.543-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:38:33.543-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:38:33.550-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:38:33.550-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_test to None, run_after=None
+[2024-10-04T15:38:33.564-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_test.py took 0.047 seconds
+[2024-10-04T15:42:54.653-0300] {processor.py:186} INFO - Started process (PID=1497) to work on /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:42:54.654-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_test.py for tasks to queue
+[2024-10-04T15:42:54.656-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:42:54.656-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:42:54.667-0300] {processor.py:925} INFO - DAG(s) 'dag_test' retrieved from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:42:54.683-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:42:54.682-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:42:54.695-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:42:54.695-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_test to None, run_after=None
+[2024-10-04T15:42:54.713-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_test.py took 0.064 seconds
+[2024-10-04T15:43:25.591-0300] {processor.py:186} INFO - Started process (PID=2029) to work on /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:43:25.592-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_test.py for tasks to queue
+[2024-10-04T15:43:25.594-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:43:25.594-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:43:25.601-0300] {processor.py:925} INFO - DAG(s) 'dag_test' retrieved from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:43:25.613-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:43:25.613-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:43:25.621-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:43:25.621-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_test to None, run_after=None
+[2024-10-04T15:43:25.635-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_test.py took 0.048 seconds
+[2024-10-04T15:43:55.821-0300] {processor.py:186} INFO - Started process (PID=2288) to work on /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:43:55.822-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_test.py for tasks to queue
+[2024-10-04T15:43:55.823-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:43:55.823-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:43:55.830-0300] {processor.py:925} INFO - DAG(s) 'dag_test' retrieved from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:43:55.844-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:43:55.844-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:43:55.853-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:43:55.853-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_test to None, run_after=None
+[2024-10-04T15:43:55.873-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_test.py took 0.056 seconds
+[2024-10-04T15:44:26.109-0300] {processor.py:186} INFO - Started process (PID=2499) to work on /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:44:26.110-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_test.py for tasks to queue
+[2024-10-04T15:44:26.114-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:44:26.114-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:44:26.123-0300] {processor.py:925} INFO - DAG(s) 'dag_test' retrieved from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:44:26.138-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:44:26.137-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:44:26.149-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:44:26.148-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_test to None, run_after=None
+[2024-10-04T15:44:26.166-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_test.py took 0.060 seconds
+[2024-10-04T15:44:56.316-0300] {processor.py:186} INFO - Started process (PID=2764) to work on /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:44:56.318-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_test.py for tasks to queue
+[2024-10-04T15:44:56.319-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:44:56.319-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:44:56.326-0300] {processor.py:925} INFO - DAG(s) 'dag_test' retrieved from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:44:56.340-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:44:56.340-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:44:56.350-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:44:56.350-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_test to None, run_after=None
+[2024-10-04T15:44:56.366-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_test.py took 0.054 seconds
+[2024-10-04T15:45:26.521-0300] {processor.py:186} INFO - Started process (PID=2975) to work on /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:45:26.522-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_test.py for tasks to queue
+[2024-10-04T15:45:26.523-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:45:26.523-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:45:26.529-0300] {processor.py:925} INFO - DAG(s) 'dag_test' retrieved from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:45:26.541-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:45:26.541-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:45:26.549-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:45:26.549-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_test to None, run_after=None
+[2024-10-04T15:45:26.563-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_test.py took 0.046 seconds
+[2024-10-04T15:45:56.792-0300] {processor.py:186} INFO - Started process (PID=3246) to work on /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:45:56.793-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_test.py for tasks to queue
+[2024-10-04T15:45:56.795-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:45:56.795-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:45:56.802-0300] {processor.py:925} INFO - DAG(s) 'dag_test' retrieved from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:45:56.813-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:45:56.813-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:45:56.822-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:45:56.822-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_test to None, run_after=None
+[2024-10-04T15:45:56.838-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_test.py took 0.050 seconds
+[2024-10-04T15:46:26.973-0300] {processor.py:186} INFO - Started process (PID=3454) to work on /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:46:26.974-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_test.py for tasks to queue
+[2024-10-04T15:46:26.976-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:46:26.975-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:46:26.984-0300] {processor.py:925} INFO - DAG(s) 'dag_test' retrieved from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:46:26.998-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:46:26.997-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:46:27.007-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:46:27.007-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_test to None, run_after=None
+[2024-10-04T15:46:27.022-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_test.py took 0.053 seconds
+[2024-10-04T15:46:57.171-0300] {processor.py:186} INFO - Started process (PID=3725) to work on /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:46:57.172-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_test.py for tasks to queue
+[2024-10-04T15:46:57.174-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:46:57.174-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:46:57.181-0300] {processor.py:925} INFO - DAG(s) 'dag_test' retrieved from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:46:57.193-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:46:57.193-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:46:57.202-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:46:57.202-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_test to None, run_after=None
+[2024-10-04T15:46:57.219-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_test.py took 0.053 seconds
+[2024-10-04T15:47:27.393-0300] {processor.py:186} INFO - Started process (PID=3936) to work on /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:47:27.394-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_test.py for tasks to queue
+[2024-10-04T15:47:27.395-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:47:27.395-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:47:27.403-0300] {processor.py:925} INFO - DAG(s) 'dag_test' retrieved from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:47:27.416-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:47:27.416-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:47:27.425-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:47:27.425-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_test to None, run_after=None
+[2024-10-04T15:47:27.439-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_test.py took 0.050 seconds
+[2024-10-04T15:47:57.606-0300] {processor.py:186} INFO - Started process (PID=4221) to work on /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:47:57.607-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_test.py for tasks to queue
+[2024-10-04T15:47:57.609-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:47:57.609-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:47:57.618-0300] {processor.py:925} INFO - DAG(s) 'dag_test' retrieved from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:47:57.631-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:47:57.630-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:47:57.640-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:47:57.640-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_test to None, run_after=None
+[2024-10-04T15:47:57.656-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_test.py took 0.053 seconds
+[2024-10-04T15:48:27.876-0300] {processor.py:186} INFO - Started process (PID=4493) to work on /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:48:27.877-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_test.py for tasks to queue
+[2024-10-04T15:48:27.879-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:48:27.879-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:48:27.888-0300] {processor.py:925} INFO - DAG(s) 'dag_test' retrieved from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:48:27.903-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:48:27.902-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:48:27.912-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:48:27.911-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_test to None, run_after=None
+[2024-10-04T15:48:27.926-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_test.py took 0.054 seconds
+[2024-10-04T15:48:58.090-0300] {processor.py:186} INFO - Started process (PID=4769) to work on /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:48:58.091-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_test.py for tasks to queue
+[2024-10-04T15:48:58.093-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:48:58.093-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:48:58.101-0300] {processor.py:925} INFO - DAG(s) 'dag_test' retrieved from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:48:58.112-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:48:58.112-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:48:58.120-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:48:58.120-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_test to None, run_after=None
+[2024-10-04T15:48:58.134-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_test.py took 0.049 seconds
+[2024-10-04T15:49:28.301-0300] {processor.py:186} INFO - Started process (PID=4980) to work on /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:49:28.302-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_test.py for tasks to queue
+[2024-10-04T15:49:28.304-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:49:28.303-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:49:28.311-0300] {processor.py:925} INFO - DAG(s) 'dag_test' retrieved from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:49:28.323-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:49:28.323-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:49:28.331-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:49:28.331-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_test to None, run_after=None
+[2024-10-04T15:49:28.345-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_test.py took 0.048 seconds
+[2024-10-04T15:49:58.514-0300] {processor.py:186} INFO - Started process (PID=5253) to work on /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:49:58.515-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_test.py for tasks to queue
+[2024-10-04T15:49:58.516-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:49:58.516-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:49:58.523-0300] {processor.py:925} INFO - DAG(s) 'dag_test' retrieved from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:49:58.535-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:49:58.535-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:49:58.543-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:49:58.543-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_test to None, run_after=None
+[2024-10-04T15:49:58.558-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_test.py took 0.048 seconds
+[2024-10-04T15:50:28.711-0300] {processor.py:186} INFO - Started process (PID=5466) to work on /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:50:28.712-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_test.py for tasks to queue
+[2024-10-04T15:50:28.713-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:50:28.713-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:50:28.721-0300] {processor.py:925} INFO - DAG(s) 'dag_test' retrieved from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:50:28.736-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:50:28.735-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:50:28.745-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:50:28.745-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_test to None, run_after=None
+[2024-10-04T15:50:28.762-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_test.py took 0.055 seconds
+[2024-10-04T15:50:58.919-0300] {processor.py:186} INFO - Started process (PID=5739) to work on /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:50:58.920-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_test.py for tasks to queue
+[2024-10-04T15:50:58.922-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:50:58.921-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:50:58.928-0300] {processor.py:925} INFO - DAG(s) 'dag_test' retrieved from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:50:58.939-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:50:58.939-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:50:58.947-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:50:58.947-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_test to None, run_after=None
+[2024-10-04T15:50:58.961-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_test.py took 0.045 seconds
+[2024-10-04T15:51:29.648-0300] {processor.py:186} INFO - Started process (PID=6030) to work on /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:51:29.650-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_test.py for tasks to queue
+[2024-10-04T15:51:29.651-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:51:29.651-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:51:29.659-0300] {processor.py:925} INFO - DAG(s) 'dag_test' retrieved from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:51:29.673-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:51:29.672-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:51:29.682-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:51:29.682-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_test to None, run_after=None
+[2024-10-04T15:51:29.700-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_test.py took 0.056 seconds
+[2024-10-04T15:52:00.087-0300] {processor.py:186} INFO - Started process (PID=6304) to work on /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:52:00.088-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_test.py for tasks to queue
+[2024-10-04T15:52:00.090-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:52:00.090-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:52:00.097-0300] {processor.py:925} INFO - DAG(s) 'dag_test' retrieved from /home/gabzarp/airflow/dags/dag_test.py
+[2024-10-04T15:52:00.110-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:52:00.109-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:52:00.118-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:52:00.118-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_test to None, run_after=None
+[2024-10-04T15:52:00.133-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_test.py took 0.050 seconds

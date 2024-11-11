@@ -1,0 +1,490 @@
+[2024-10-04T15:35:32.411-0300] {processor.py:186} INFO - Started process (PID=104365) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:35:32.412-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T15:35:32.413-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:35:32.413-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:35:32.420-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:35:32.432-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:35:32.432-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:35:32.443-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:35:32.442-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T15:35:32.461-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.055 seconds
+[2024-10-04T15:36:09.422-0300] {processor.py:186} INFO - Started process (PID=104981) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:36:09.423-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T15:36:09.425-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:36:09.424-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:36:09.432-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:36:09.447-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:36:09.446-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:36:09.460-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:36:09.460-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T15:36:09.480-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.063 seconds
+[2024-10-04T15:36:40.193-0300] {processor.py:186} INFO - Started process (PID=105279) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:36:40.194-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T15:36:40.195-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:36:40.195-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:36:40.201-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:36:40.213-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:36:40.213-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:36:40.223-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:36:40.223-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T15:36:40.239-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.050 seconds
+[2024-10-04T15:37:34.048-0300] {processor.py:186} INFO - Started process (PID=105854) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:37:34.049-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T15:37:34.050-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:37:34.050-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:37:34.057-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:37:34.069-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:37:34.069-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:37:34.079-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:37:34.079-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T15:37:34.093-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.050 seconds
+[2024-10-04T15:38:04.226-0300] {processor.py:186} INFO - Started process (PID=106156) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:38:04.227-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T15:38:04.229-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:38:04.228-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:38:04.234-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:38:04.247-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:38:04.246-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:38:04.254-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:38:04.254-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T15:38:04.268-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.045 seconds
+[2024-10-04T15:38:34.661-0300] {processor.py:186} INFO - Started process (PID=106406) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:38:34.662-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T15:38:34.663-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:38:34.663-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:38:34.669-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:38:34.680-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:38:34.680-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:38:34.688-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:38:34.688-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T15:38:34.702-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.044 seconds
+[2024-10-04T15:42:55.813-0300] {processor.py:186} INFO - Started process (PID=1509) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:42:55.814-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T15:42:55.815-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:42:55.815-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:42:55.822-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:42:55.835-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:42:55.834-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:42:55.848-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:42:55.848-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T15:42:55.869-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.061 seconds
+[2024-10-04T15:43:26.721-0300] {processor.py:186} INFO - Started process (PID=2034) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:43:26.722-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T15:43:26.723-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:43:26.723-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:43:26.730-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:43:26.746-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:43:26.745-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:43:26.756-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:43:26.756-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T15:43:26.775-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.058 seconds
+[2024-10-04T15:43:56.956-0300] {processor.py:186} INFO - Started process (PID=2293) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:43:56.957-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T15:43:56.958-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:43:56.958-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:43:56.964-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:43:56.977-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:43:56.977-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:43:56.985-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:43:56.985-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T15:43:57.002-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.051 seconds
+[2024-10-04T15:44:27.245-0300] {processor.py:186} INFO - Started process (PID=2504) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:44:27.246-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T15:44:27.249-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:44:27.249-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:44:27.254-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:44:27.265-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:44:27.265-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:44:27.274-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:44:27.273-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T15:44:27.289-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.047 seconds
+[2024-10-04T15:44:57.448-0300] {processor.py:186} INFO - Started process (PID=2775) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:44:57.488-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T15:44:57.490-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:44:57.490-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:44:57.496-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:44:57.507-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:44:57.507-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:44:57.515-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:44:57.514-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T15:44:57.546-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.102 seconds
+[2024-10-04T15:45:27.659-0300] {processor.py:186} INFO - Started process (PID=2986) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:45:27.660-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T15:45:27.662-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:45:27.661-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:45:27.667-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:45:27.678-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:45:27.678-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:45:27.686-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:45:27.685-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T15:45:27.701-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.046 seconds
+[2024-10-04T15:45:57.925-0300] {processor.py:186} INFO - Started process (PID=3251) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:45:57.926-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T15:45:57.927-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:45:57.927-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:45:57.933-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:45:57.944-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:45:57.944-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:45:57.952-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:45:57.952-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T15:45:57.968-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.047 seconds
+[2024-10-04T15:46:28.105-0300] {processor.py:186} INFO - Started process (PID=3465) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:46:28.106-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T15:46:28.107-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:46:28.107-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:46:28.113-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:46:28.124-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:46:28.124-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:46:28.133-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:46:28.133-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T15:46:28.148-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.047 seconds
+[2024-10-04T15:46:58.301-0300] {processor.py:186} INFO - Started process (PID=3736) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:46:58.302-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T15:46:58.304-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:46:58.303-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:46:58.309-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:46:58.320-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:46:58.319-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:46:58.327-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:46:58.327-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T15:46:58.341-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.043 seconds
+[2024-10-04T15:47:28.524-0300] {processor.py:186} INFO - Started process (PID=3941) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:47:28.524-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T15:47:28.526-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:47:28.526-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:47:28.532-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:47:28.544-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:47:28.543-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:47:28.552-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:47:28.552-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T15:47:28.568-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.048 seconds
+[2024-10-04T15:47:58.742-0300] {processor.py:186} INFO - Started process (PID=4226) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:47:58.742-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T15:47:58.744-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:47:58.743-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:47:58.751-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:47:58.764-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:47:58.764-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:47:58.772-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:47:58.772-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T15:47:58.787-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.050 seconds
+[2024-10-04T15:48:29.016-0300] {processor.py:186} INFO - Started process (PID=4505) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:48:29.017-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T15:48:29.019-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:48:29.018-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:48:29.026-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:48:29.037-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:48:29.037-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:48:29.045-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:48:29.045-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T15:48:29.064-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.054 seconds
+[2024-10-04T15:48:59.219-0300] {processor.py:186} INFO - Started process (PID=4780) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:48:59.221-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T15:48:59.222-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:48:59.222-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:48:59.228-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:48:59.239-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:48:59.239-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:48:59.247-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:48:59.246-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T15:48:59.263-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.047 seconds
+[2024-10-04T15:49:29.432-0300] {processor.py:186} INFO - Started process (PID=4985) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:49:29.433-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T15:49:29.434-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:49:29.434-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:49:29.440-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:49:29.451-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:49:29.451-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:49:29.459-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:49:29.459-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T15:49:29.473-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.045 seconds
+[2024-10-04T15:49:59.645-0300] {processor.py:186} INFO - Started process (PID=5261) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:49:59.646-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T15:49:59.648-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:49:59.647-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:49:59.653-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:49:59.664-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:49:59.664-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:49:59.672-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:49:59.672-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T15:49:59.686-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.045 seconds
+[2024-10-04T15:50:29.847-0300] {processor.py:186} INFO - Started process (PID=5478) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:50:29.848-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T15:50:29.850-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:50:29.850-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:50:29.856-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:50:29.868-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:50:29.868-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:50:29.877-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:50:29.877-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T15:50:29.893-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.049 seconds
+[2024-10-04T15:51:00.051-0300] {processor.py:186} INFO - Started process (PID=5744) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:51:00.052-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T15:51:00.054-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:51:00.053-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:51:00.060-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:51:00.071-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:51:00.070-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:51:00.079-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:51:00.079-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T15:51:00.096-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.049 seconds
+[2024-10-04T15:51:30.779-0300] {processor.py:186} INFO - Started process (PID=6035) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:51:30.780-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T15:51:30.782-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:51:30.782-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:51:30.788-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:51:30.800-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:51:30.800-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:51:30.810-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:51:30.810-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T15:51:30.826-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.050 seconds
+[2024-10-04T15:52:01.222-0300] {processor.py:186} INFO - Started process (PID=6309) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:52:01.223-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T15:52:01.224-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:52:01.224-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:52:01.230-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:52:01.243-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:52:01.243-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:52:01.251-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:52:01.251-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T15:52:01.267-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.050 seconds
+[2024-10-04T15:52:31.588-0300] {processor.py:186} INFO - Started process (PID=6526) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:52:31.589-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T15:52:31.590-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:52:31.590-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:52:31.596-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:52:31.608-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:52:31.608-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:52:31.617-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:52:31.616-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T15:52:31.634-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.050 seconds
+[2024-10-04T15:53:01.996-0300] {processor.py:186} INFO - Started process (PID=6858) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:53:01.997-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T15:53:01.998-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:53:01.998-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:53:02.005-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:53:02.017-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:53:02.016-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:53:02.025-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:53:02.025-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T15:53:02.745-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.752 seconds
+[2024-10-04T15:53:33.445-0300] {processor.py:186} INFO - Started process (PID=7074) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:53:33.446-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T15:53:33.447-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:53:33.447-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:53:33.453-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:53:33.464-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:53:33.464-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:53:33.472-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:53:33.472-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T15:53:33.757-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.317 seconds
+[2024-10-04T15:54:03.916-0300] {processor.py:186} INFO - Started process (PID=7350) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:54:03.916-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T15:54:03.917-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:54:03.917-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:54:03.924-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:54:03.936-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:54:03.935-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:54:03.943-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:54:03.943-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T15:54:03.957-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.045 seconds
+[2024-10-04T15:54:34.124-0300] {processor.py:186} INFO - Started process (PID=7562) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:54:34.125-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T15:54:34.126-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:54:34.126-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:54:34.132-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:54:34.142-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:54:34.142-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:54:34.150-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:54:34.150-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T15:54:34.292-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.172 seconds
+[2024-10-04T15:55:04.463-0300] {processor.py:186} INFO - Started process (PID=7900) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:55:04.463-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T15:55:04.464-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:55:04.464-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:55:04.470-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:55:04.481-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:55:04.480-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:55:04.488-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:55:04.488-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T15:55:04.502-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.044 seconds
+[2024-10-04T15:55:34.953-0300] {processor.py:186} INFO - Started process (PID=8239) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:55:34.953-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T15:55:34.954-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:55:34.954-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:55:34.961-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:55:34.972-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:55:34.972-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:55:34.980-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:55:34.980-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T15:55:35.124-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.175 seconds
+[2024-10-04T15:56:05.441-0300] {processor.py:186} INFO - Started process (PID=8512) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:56:05.442-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T15:56:05.443-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:56:05.443-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:56:05.450-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:56:05.461-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:56:05.461-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:56:05.469-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:56:05.469-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T15:56:05.483-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.046 seconds
+[2024-10-04T15:56:36.011-0300] {processor.py:186} INFO - Started process (PID=8725) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:56:36.012-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T15:56:36.012-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:56:36.012-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:56:36.019-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:56:36.029-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:56:36.029-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:56:36.037-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:56:36.037-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T15:56:36.050-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.043 seconds
+[2024-10-04T15:57:06.539-0300] {processor.py:186} INFO - Started process (PID=8997) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:57:06.540-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T15:57:06.541-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:57:06.540-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:57:06.547-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:57:06.558-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:57:06.558-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:57:06.566-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:57:06.566-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T15:57:06.580-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.045 seconds
+[2024-10-04T15:57:36.723-0300] {processor.py:186} INFO - Started process (PID=9208) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:57:36.724-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T15:57:36.724-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:57:36.724-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:57:36.731-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:57:36.742-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:57:36.742-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:57:36.750-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:57:36.750-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T15:57:36.764-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.045 seconds
+[2024-10-04T15:58:06.908-0300] {processor.py:186} INFO - Started process (PID=9533) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:58:06.909-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T15:58:06.909-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:58:06.909-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:58:06.915-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:58:06.926-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:58:06.926-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:58:06.934-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:58:06.933-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T15:58:07.404-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.500 seconds
+[2024-10-04T15:58:37.922-0300] {processor.py:186} INFO - Started process (PID=9748) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:58:37.923-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T15:58:37.924-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:58:37.924-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:58:37.930-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:58:37.942-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:58:37.941-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:58:37.950-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:58:37.950-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T15:58:37.966-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.048 seconds
+[2024-10-04T15:59:08.108-0300] {processor.py:186} INFO - Started process (PID=10019) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:59:08.109-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T15:59:08.110-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:59:08.109-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:59:08.116-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:59:08.126-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:59:08.126-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:59:08.133-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:59:08.133-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T15:59:08.147-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.043 seconds
+[2024-10-04T15:59:38.254-0300] {processor.py:186} INFO - Started process (PID=10230) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:59:38.255-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T15:59:38.256-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:59:38.256-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:59:38.263-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T15:59:38.275-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:59:38.275-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T15:59:38.284-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:59:38.283-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T15:59:38.301-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.051 seconds
+[2024-10-04T16:00:08.437-0300] {processor.py:186} INFO - Started process (PID=10499) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:00:08.438-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T16:00:08.439-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:00:08.438-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:00:08.445-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:00:08.456-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:00:08.456-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T16:00:08.464-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:00:08.463-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T16:00:08.478-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.045 seconds
+[2024-10-04T16:00:38.618-0300] {processor.py:186} INFO - Started process (PID=10707) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:00:38.619-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T16:00:38.620-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:00:38.619-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:00:38.626-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:00:38.637-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:00:38.637-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T16:00:38.646-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:00:38.646-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T16:00:38.660-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.046 seconds
+[2024-10-04T16:01:08.803-0300] {processor.py:186} INFO - Started process (PID=10979) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:01:08.804-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T16:01:08.806-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:01:08.805-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:01:08.815-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:01:08.829-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:01:08.829-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T16:01:08.838-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:01:08.837-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T16:01:08.852-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.053 seconds
+[2024-10-04T16:01:38.986-0300] {processor.py:186} INFO - Started process (PID=11246) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:01:38.987-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T16:01:38.988-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:01:38.988-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:01:38.994-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:01:39.005-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:01:39.005-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T16:01:39.013-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:01:39.013-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T16:01:39.027-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.045 seconds
+[2024-10-04T16:02:09.175-0300] {processor.py:186} INFO - Started process (PID=11637) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:02:09.176-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T16:02:09.177-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:02:09.176-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:02:09.183-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:02:09.194-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:02:09.194-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T16:02:09.202-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:02:09.202-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T16:02:09.218-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.047 seconds
+[2024-10-04T16:02:39.363-0300] {processor.py:186} INFO - Started process (PID=11848) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:02:39.364-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T16:02:39.364-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:02:39.364-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:02:39.371-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:02:39.381-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:02:39.381-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T16:02:39.389-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:02:39.389-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T16:02:39.403-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.045 seconds
+[2024-10-04T16:03:09.505-0300] {processor.py:186} INFO - Started process (PID=12180) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:03:09.506-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T16:03:09.507-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:03:09.506-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:03:09.514-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:03:09.525-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:03:09.525-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T16:03:09.534-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:03:09.533-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T16:03:09.549-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.048 seconds
+[2024-10-04T16:03:39.667-0300] {processor.py:186} INFO - Started process (PID=12385) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:03:39.668-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T16:03:39.669-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:03:39.668-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:03:39.676-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:03:39.688-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:03:39.688-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T16:03:39.697-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:03:39.697-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T16:03:39.712-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.049 seconds
+[2024-10-04T16:04:09.854-0300] {processor.py:186} INFO - Started process (PID=12685) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:04:09.855-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T16:04:09.856-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:04:09.855-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:04:09.862-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:04:09.874-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:04:09.874-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T16:04:09.882-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:04:09.882-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T16:04:09.991-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.142 seconds
+[2024-10-04T16:04:40.132-0300] {processor.py:186} INFO - Started process (PID=12952) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:04:40.133-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T16:04:40.134-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:04:40.134-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:04:40.141-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:04:40.154-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:04:40.154-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T16:04:40.167-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:04:40.167-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T16:04:40.185-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.058 seconds
+[2024-10-04T16:05:08.575-0300] {processor.py:186} INFO - Started process (PID=13267) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:05:08.576-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T16:05:08.577-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:05:08.577-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:05:08.584-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:05:08.648-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:05:08.648-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T16:05:08.754-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:05:08.754-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T16:05:08.767-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.196 seconds
+[2024-10-04T16:05:39.809-0300] {processor.py:186} INFO - Started process (PID=13581) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:05:39.810-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T16:05:39.811-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:05:39.810-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:05:39.818-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:05:39.831-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:05:39.831-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T16:05:39.840-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:05:39.840-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T16:05:39.855-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.050 seconds
+[2024-10-04T16:06:02.527-0300] {processor.py:186} INFO - Started process (PID=13856) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:06:02.528-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T16:06:02.529-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:06:02.529-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:06:02.538-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:06:02.716-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:06:02.716-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T16:06:02.724-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:06:02.724-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T16:06:02.742-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.220 seconds
+[2024-10-04T16:06:03.860-0300] {processor.py:186} INFO - Started process (PID=13862) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:06:03.860-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T16:06:03.861-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:06:03.861-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:06:03.868-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:06:03.873-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:06:03.873-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T16:06:03.881-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:06:03.881-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T16:06:03.897-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.042 seconds
+[2024-10-04T16:06:34.657-0300] {processor.py:186} INFO - Started process (PID=14133) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:06:34.658-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T16:06:34.658-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:06:34.658-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:06:34.665-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:06:34.677-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:06:34.676-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T16:06:34.684-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:06:34.684-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T16:06:34.697-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.044 seconds
+[2024-10-04T16:07:05.622-0300] {processor.py:186} INFO - Started process (PID=14467) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:07:05.623-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T16:07:05.624-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:07:05.624-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:07:05.630-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:07:05.642-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:07:05.642-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T16:07:05.650-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:07:05.650-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T16:07:05.664-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.046 seconds
+[2024-10-04T16:07:35.937-0300] {processor.py:186} INFO - Started process (PID=14683) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:07:35.938-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T16:07:35.939-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:07:35.939-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:07:35.946-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:07:35.959-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:07:35.959-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T16:07:35.967-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:07:35.967-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T16:07:35.984-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.051 seconds
+[2024-10-04T16:08:06.283-0300] {processor.py:186} INFO - Started process (PID=15047) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:08:06.284-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T16:08:06.286-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:08:06.285-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:08:06.293-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:08:06.304-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:08:06.304-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T16:08:06.312-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:08:06.312-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T16:08:06.472-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.193 seconds
+[2024-10-04T16:08:36.768-0300] {processor.py:186} INFO - Started process (PID=15533) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:08:36.769-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T16:08:36.769-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:08:36.769-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:08:36.776-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:08:36.786-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:08:36.786-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T16:08:36.795-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:08:36.795-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T16:08:36.809-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.045 seconds
+[2024-10-04T16:09:07.074-0300] {processor.py:186} INFO - Started process (PID=15806) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:09:07.075-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T16:09:07.076-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:09:07.076-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:09:07.082-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:09:07.094-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:09:07.094-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T16:09:07.102-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:09:07.102-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T16:09:07.116-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.046 seconds
+[2024-10-04T16:09:37.384-0300] {processor.py:186} INFO - Started process (PID=16133) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:09:37.385-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T16:09:37.386-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:09:37.386-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:09:37.393-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:09:37.404-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:09:37.404-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T16:09:37.412-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:09:37.412-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T16:09:37.426-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.046 seconds
+[2024-10-04T16:10:07.747-0300] {processor.py:186} INFO - Started process (PID=16405) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:10:07.748-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T16:10:07.749-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:10:07.749-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:10:07.756-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:10:07.770-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:10:07.770-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T16:10:07.779-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:10:07.779-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T16:10:07.794-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.051 seconds
+[2024-10-04T16:10:38.058-0300] {processor.py:186} INFO - Started process (PID=16616) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:10:38.059-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T16:10:38.060-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:10:38.059-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:10:38.067-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:10:38.078-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:10:38.078-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T16:10:38.086-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:10:38.086-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T16:10:38.100-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.046 seconds
+[2024-10-04T16:11:08.364-0300] {processor.py:186} INFO - Started process (PID=16887) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:11:08.365-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T16:11:08.365-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:11:08.365-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:11:08.372-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:11:08.385-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:11:08.384-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T16:11:08.393-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:11:08.393-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T16:11:08.410-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.050 seconds
+[2024-10-04T16:11:38.711-0300] {processor.py:186} INFO - Started process (PID=17093) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:11:38.712-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T16:11:38.713-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:11:38.713-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:11:38.719-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:11:38.730-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:11:38.730-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T16:11:38.737-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:11:38.737-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T16:11:38.752-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.044 seconds
+[2024-10-04T16:12:09.012-0300] {processor.py:186} INFO - Started process (PID=17364) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:12:09.013-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T16:12:09.014-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:12:09.014-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:12:09.020-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:12:09.031-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:12:09.031-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T16:12:09.040-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:12:09.040-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T16:12:09.150-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.141 seconds
+[2024-10-04T16:12:39.431-0300] {processor.py:186} INFO - Started process (PID=17576) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:12:39.432-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T16:12:39.434-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:12:39.434-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:12:39.440-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:12:39.452-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:12:39.452-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T16:12:39.461-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:12:39.461-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T16:12:39.476-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.048 seconds
+[2024-10-04T16:13:09.763-0300] {processor.py:186} INFO - Started process (PID=17977) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:13:09.764-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T16:13:09.765-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:13:09.764-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:13:09.772-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:13:09.785-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:13:09.785-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T16:13:09.793-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:13:09.793-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T16:13:09.810-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.052 seconds
+[2024-10-04T16:13:40.085-0300] {processor.py:186} INFO - Started process (PID=18243) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:13:40.086-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T16:13:40.087-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:13:40.087-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:13:40.094-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:13:40.106-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:13:40.105-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T16:13:40.114-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:13:40.113-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T16:13:40.129-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.048 seconds
+[2024-10-04T16:14:10.467-0300] {processor.py:186} INFO - Started process (PID=18516) to work on /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:14:10.468-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_mal_scrapy.py for tasks to queue
+[2024-10-04T16:14:10.469-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:14:10.469-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:14:10.476-0300] {processor.py:925} INFO - DAG(s) 'dag_mal_scrapy' retrieved from /home/gabzarp/airflow/dags/dag_mal_scrapy.py
+[2024-10-04T16:14:10.487-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:14:10.487-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T16:14:10.495-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:14:10.495-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_mal_scrapy to None, run_after=None
+[2024-10-04T16:14:10.509-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_mal_scrapy.py took 0.047 seconds
