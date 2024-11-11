@@ -1,0 +1,704 @@
+[2024-10-04T15:52:54.493-0300] {processor.py:186} INFO - Started process (PID=6684) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:52:54.494-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T15:52:54.494-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:52:54.494-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:52:54.501-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:52:54.497-0300] {dagbag.py:386} ERROR - Failed to import: /home/gabzarp/airflow/dags/dag_air_polution.py
+Traceback (most recent call last):
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/gabzarp/airflow/dags/dag_air_polution.py", line 15, in <module>
+    python_callable = get_data_from_api,
+NameError: name 'get_data_from_api' is not defined
+[2024-10-04T15:52:54.505-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:52:54.518-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.028 seconds
+[2024-10-04T15:53:25.226-0300] {processor.py:186} INFO - Started process (PID=7017) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:53:25.227-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T15:53:25.228-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:53:25.227-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:53:25.233-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:53:25.230-0300] {dagbag.py:386} ERROR - Failed to import: /home/gabzarp/airflow/dags/dag_air_polution.py
+Traceback (most recent call last):
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/gabzarp/airflow/dags/dag_air_polution.py", line 15, in <module>
+    python_callable = get_data_from_api,
+NameError: name 'get_data_from_api' is not defined
+[2024-10-04T15:53:25.236-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:53:25.250-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.028 seconds
+[2024-10-04T15:53:55.558-0300] {processor.py:186} INFO - Started process (PID=7256) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:53:55.559-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T15:53:55.560-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:53:55.559-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:53:55.565-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:53:55.562-0300] {dagbag.py:386} ERROR - Failed to import: /home/gabzarp/airflow/dags/dag_air_polution.py
+Traceback (most recent call last):
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/gabzarp/airflow/dags/dag_air_polution.py", line 15, in <module>
+    python_callable = get_data_from_api,
+NameError: name 'get_data_from_api' is not defined
+[2024-10-04T15:53:55.568-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:53:55.581-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.027 seconds
+[2024-10-04T15:54:05.046-0300] {processor.py:186} INFO - Started process (PID=7362) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:54:05.047-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T15:54:05.048-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:54:05.048-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:54:05.050-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:54:05.049-0300] {dagbag.py:386} ERROR - Failed to import: /home/gabzarp/airflow/dags/dag_air_polution.py
+Traceback (most recent call last):
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/gabzarp/airflow/dags/dag_air_polution.py", line 6
+    from ../python/get_data_from_api import get_data_from_api
+           ^
+SyntaxError: invalid syntax
+[2024-10-04T15:54:05.050-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:54:05.193-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.150 seconds
+[2024-10-04T15:54:10.268-0300] {processor.py:186} INFO - Started process (PID=7395) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:54:10.268-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T15:54:10.269-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:54:10.269-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:54:10.271-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:54:10.270-0300] {dagbag.py:386} ERROR - Failed to import: /home/gabzarp/airflow/dags/dag_air_polution.py
+Traceback (most recent call last):
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/gabzarp/airflow/dags/dag_air_polution.py", line 6
+    from "../python/get_data_from_api" import get_data_from_api
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2024-10-04T15:54:10.271-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:54:10.436-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.173 seconds
+[2024-10-04T15:54:40.752-0300] {processor.py:186} INFO - Started process (PID=7607) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:54:40.753-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T15:54:40.755-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:54:40.754-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:54:40.757-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:54:40.756-0300] {dagbag.py:386} ERROR - Failed to import: /home/gabzarp/airflow/dags/dag_air_polution.py
+Traceback (most recent call last):
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/gabzarp/airflow/dags/dag_air_polution.py", line 6
+    from "../python/get_data_from_api" import get_data_from_api
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+[2024-10-04T15:54:40.757-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:54:40.784-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.037 seconds
+[2024-10-04T15:54:53.369-0300] {processor.py:186} INFO - Started process (PID=7696) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:54:53.369-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T15:54:53.370-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:54:53.370-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:54:53.373-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:54:53.372-0300] {dagbag.py:386} ERROR - Failed to import: /home/gabzarp/airflow/dags/dag_air_polution.py
+Traceback (most recent call last):
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/gabzarp/airflow/dags/dag_air_polution.py", line 6, in <module>
+    from python.get_data_from_api import get_data_from_api
+ModuleNotFoundError: No module named 'python'
+[2024-10-04T15:54:53.373-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:54:53.646-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.281 seconds
+[2024-10-04T15:55:23.742-0300] {processor.py:186} INFO - Started process (PID=8147) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:55:23.742-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T15:55:23.743-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:55:23.743-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:55:23.745-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:55:23.745-0300] {dagbag.py:386} ERROR - Failed to import: /home/gabzarp/airflow/dags/dag_air_polution.py
+Traceback (most recent call last):
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/gabzarp/airflow/dags/dag_air_polution.py", line 6, in <module>
+    from python.get_data_from_api import get_data_from_api
+ModuleNotFoundError: No module named 'python'
+[2024-10-04T15:55:23.745-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:55:23.759-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.022 seconds
+[2024-10-04T15:55:54.334-0300] {processor.py:186} INFO - Started process (PID=8376) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:55:54.335-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T15:55:54.336-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:55:54.336-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:55:54.338-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:55:54.338-0300] {dagbag.py:386} ERROR - Failed to import: /home/gabzarp/airflow/dags/dag_air_polution.py
+Traceback (most recent call last):
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/gabzarp/airflow/dags/dag_air_polution.py", line 6, in <module>
+    from python.get_data_from_api import get_data_from_api
+ModuleNotFoundError: No module named 'python'
+[2024-10-04T15:55:54.339-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:55:54.395-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.065 seconds
+[2024-10-04T15:56:24.926-0300] {processor.py:186} INFO - Started process (PID=8650) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:56:24.983-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T15:56:24.984-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:56:24.983-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:56:24.986-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:56:24.986-0300] {dagbag.py:386} ERROR - Failed to import: /home/gabzarp/airflow/dags/dag_air_polution.py
+Traceback (most recent call last):
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/gabzarp/airflow/dags/dag_air_polution.py", line 6, in <module>
+    from python.get_data_from_api import get_data_from_api
+ModuleNotFoundError: No module named 'python'
+[2024-10-04T15:56:24.987-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:56:25.311-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.389 seconds
+[2024-10-04T15:56:55.713-0300] {processor.py:186} INFO - Started process (PID=8889) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:56:55.713-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T15:56:55.714-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:56:55.714-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:56:55.716-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:56:55.716-0300] {dagbag.py:386} ERROR - Failed to import: /home/gabzarp/airflow/dags/dag_air_polution.py
+Traceback (most recent call last):
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/gabzarp/airflow/dags/dag_air_polution.py", line 6, in <module>
+    from python.get_data_from_api import get_data_from_api
+ModuleNotFoundError: No module named 'python'
+[2024-10-04T15:56:55.716-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:56:55.729-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.020 seconds
+[2024-10-04T15:57:26.167-0300] {processor.py:186} INFO - Started process (PID=9130) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:57:26.168-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T15:57:26.169-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:57:26.169-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:57:26.171-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:57:26.171-0300] {dagbag.py:386} ERROR - Failed to import: /home/gabzarp/airflow/dags/dag_air_polution.py
+Traceback (most recent call last):
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/gabzarp/airflow/dags/dag_air_polution.py", line 6, in <module>
+    from python.get_data_from_api import get_data_from_api
+ModuleNotFoundError: No module named 'python'
+[2024-10-04T15:57:26.171-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:57:26.186-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.023 seconds
+[2024-10-04T15:57:56.324-0300] {processor.py:186} INFO - Started process (PID=9387) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:57:56.324-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T15:57:56.325-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:57:56.325-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:57:56.327-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:57:56.326-0300] {dagbag.py:386} ERROR - Failed to import: /home/gabzarp/airflow/dags/dag_air_polution.py
+Traceback (most recent call last):
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/gabzarp/airflow/dags/dag_air_polution.py", line 6, in <module>
+    from python.get_data_from_api import get_data_from_api
+ModuleNotFoundError: No module named 'python'
+[2024-10-04T15:57:56.327-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:57:56.340-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.020 seconds
+[2024-10-04T15:58:26.481-0300] {processor.py:186} INFO - Started process (PID=9672) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:58:26.483-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T15:58:26.483-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:58:26.483-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:58:26.485-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:58:26.485-0300] {dagbag.py:386} ERROR - Failed to import: /home/gabzarp/airflow/dags/dag_air_polution.py
+Traceback (most recent call last):
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/gabzarp/airflow/dags/dag_air_polution.py", line 6, in <module>
+    from python.get_data_from_api import get_data_from_api
+ModuleNotFoundError: No module named 'python'
+[2024-10-04T15:58:26.486-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:58:26.498-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.022 seconds
+[2024-10-04T15:58:56.637-0300] {processor.py:186} INFO - Started process (PID=9943) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:58:56.638-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T15:58:56.639-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:58:56.639-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:58:56.641-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:58:56.640-0300] {dagbag.py:386} ERROR - Failed to import: /home/gabzarp/airflow/dags/dag_air_polution.py
+Traceback (most recent call last):
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/gabzarp/airflow/dags/dag_air_polution.py", line 6, in <module>
+    from python.get_data_from_api import get_data_from_api
+ModuleNotFoundError: No module named 'python'
+[2024-10-04T15:58:56.641-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:58:56.654-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.021 seconds
+[2024-10-04T15:59:26.795-0300] {processor.py:186} INFO - Started process (PID=10148) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:59:26.796-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T15:59:26.797-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:59:26.797-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:59:26.799-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:59:26.799-0300] {dagbag.py:386} ERROR - Failed to import: /home/gabzarp/airflow/dags/dag_air_polution.py
+Traceback (most recent call last):
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/gabzarp/airflow/dags/dag_air_polution.py", line 6, in <module>
+    from python.get_data_from_api import get_data_from_api
+ModuleNotFoundError: No module named 'python'
+[2024-10-04T15:59:26.800-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:59:26.813-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.022 seconds
+[2024-10-04T15:59:56.952-0300] {processor.py:186} INFO - Started process (PID=10419) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:59:56.959-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T15:59:56.960-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:59:56.960-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:59:56.962-0300] {logging_mixin.py:190} INFO - [2024-10-04T15:59:56.962-0300] {dagbag.py:386} ERROR - Failed to import: /home/gabzarp/airflow/dags/dag_air_polution.py
+Traceback (most recent call last):
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/gabzarp/airflow/dags/dag_air_polution.py", line 6, in <module>
+    from python.get_data_from_api import get_data_from_api
+ModuleNotFoundError: No module named 'python'
+[2024-10-04T15:59:56.962-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T15:59:56.976-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.028 seconds
+[2024-10-04T16:00:27.111-0300] {processor.py:186} INFO - Started process (PID=10630) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:00:27.112-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T16:00:27.113-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:00:27.113-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:00:27.115-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:00:27.115-0300] {dagbag.py:386} ERROR - Failed to import: /home/gabzarp/airflow/dags/dag_air_polution.py
+Traceback (most recent call last):
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/gabzarp/airflow/dags/dag_air_polution.py", line 6, in <module>
+    from python.get_data_from_api import get_data_from_api
+ModuleNotFoundError: No module named 'python'
+[2024-10-04T16:00:27.115-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:00:27.259-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.154 seconds
+[2024-10-04T16:00:57.365-0300] {processor.py:186} INFO - Started process (PID=10897) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:00:57.366-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T16:00:57.367-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:00:57.367-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:00:57.370-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:00:57.369-0300] {dagbag.py:386} ERROR - Failed to import: /home/gabzarp/airflow/dags/dag_air_polution.py
+Traceback (most recent call last):
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/gabzarp/airflow/dags/dag_air_polution.py", line 6, in <module>
+    from python.get_data_from_api import get_data_from_api
+ModuleNotFoundError: No module named 'python'
+[2024-10-04T16:00:57.370-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:00:57.383-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.021 seconds
+[2024-10-04T16:01:27.522-0300] {processor.py:186} INFO - Started process (PID=11149) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:01:27.523-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T16:01:27.524-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:01:27.524-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:01:27.526-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:01:27.526-0300] {dagbag.py:386} ERROR - Failed to import: /home/gabzarp/airflow/dags/dag_air_polution.py
+Traceback (most recent call last):
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/gabzarp/airflow/dags/dag_air_polution.py", line 6, in <module>
+    from python.get_data_from_api import get_data_from_api
+ModuleNotFoundError: No module named 'python'
+[2024-10-04T16:01:27.527-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:01:27.542-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.024 seconds
+[2024-10-04T16:01:57.682-0300] {processor.py:186} INFO - Started process (PID=11438) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:01:57.683-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T16:01:57.685-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:01:57.685-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:01:57.687-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:01:57.687-0300] {dagbag.py:386} ERROR - Failed to import: /home/gabzarp/airflow/dags/dag_air_polution.py
+Traceback (most recent call last):
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/gabzarp/airflow/dags/dag_air_polution.py", line 6, in <module>
+    from python.get_data_from_api import get_data_from_api
+ModuleNotFoundError: No module named 'python'
+[2024-10-04T16:01:57.688-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:01:57.707-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.030 seconds
+[2024-10-04T16:02:27.858-0300] {processor.py:186} INFO - Started process (PID=11766) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:02:27.859-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T16:02:27.860-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:02:27.859-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:02:27.862-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:02:27.862-0300] {dagbag.py:386} ERROR - Failed to import: /home/gabzarp/airflow/dags/dag_air_polution.py
+Traceback (most recent call last):
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/gabzarp/airflow/dags/dag_air_polution.py", line 6, in <module>
+    from python.get_data_from_api import get_data_from_api
+ModuleNotFoundError: No module named 'python'
+[2024-10-04T16:02:27.863-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:02:27.879-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.025 seconds
+[2024-10-04T16:02:58.017-0300] {processor.py:186} INFO - Started process (PID=12036) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:02:58.018-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T16:02:58.020-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:02:58.019-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:02:58.022-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:02:58.021-0300] {dagbag.py:386} ERROR - Failed to import: /home/gabzarp/airflow/dags/dag_air_polution.py
+Traceback (most recent call last):
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/gabzarp/airflow/dags/dag_air_polution.py", line 6, in <module>
+    from python.get_data_from_api import get_data_from_api
+ModuleNotFoundError: No module named 'python'
+[2024-10-04T16:02:58.022-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:02:58.036-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.023 seconds
+[2024-10-04T16:03:28.175-0300] {processor.py:186} INFO - Started process (PID=12309) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:03:28.176-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T16:03:28.177-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:03:28.176-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:03:28.179-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:03:28.178-0300] {dagbag.py:386} ERROR - Failed to import: /home/gabzarp/airflow/dags/dag_air_polution.py
+Traceback (most recent call last):
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/gabzarp/airflow/dags/dag_air_polution.py", line 6, in <module>
+    from python.get_data_from_api import get_data_from_api
+ModuleNotFoundError: No module named 'python'
+[2024-10-04T16:03:28.179-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:03:28.191-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.020 seconds
+[2024-10-04T16:03:53.773-0300] {processor.py:186} INFO - Started process (PID=12484) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:03:53.774-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T16:03:53.775-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:03:53.775-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:03:53.782-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:03:53.779-0300] {dagbag.py:386} ERROR - Failed to import: /home/gabzarp/airflow/dags/dag_air_polution.py
+Traceback (most recent call last):
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/gabzarp/airflow/dags/dag_air_polution.py", line 14, in <module>
+    get_data_from_api = BashOperator(
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 460, in apply_defaults
+    default_args, merged_params = get_merged_defaults(
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 175, in get_merged_defaults
+    args, params = _get_parent_defaults(dag, task_group)
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 160, in _get_parent_defaults
+    dag_args = copy.copy(dag.default_args)
+AttributeError: type object 'DAG' has no attribute 'default_args'. Did you mean: 'default_view'?
+[2024-10-04T16:03:53.784-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:03:53.801-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.032 seconds
+[2024-10-04T16:04:24.077-0300] {processor.py:186} INFO - Started process (PID=12837) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:04:24.078-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T16:04:24.079-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:04:24.079-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:04:24.084-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:04:24.081-0300] {dagbag.py:386} ERROR - Failed to import: /home/gabzarp/airflow/dags/dag_air_polution.py
+Traceback (most recent call last):
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/gabzarp/airflow/dags/dag_air_polution.py", line 14, in <module>
+    get_data_from_api = BashOperator(
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 460, in apply_defaults
+    default_args, merged_params = get_merged_defaults(
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 175, in get_merged_defaults
+    args, params = _get_parent_defaults(dag, task_group)
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 160, in _get_parent_defaults
+    dag_args = copy.copy(dag.default_args)
+AttributeError: type object 'DAG' has no attribute 'default_args'. Did you mean: 'default_view'?
+[2024-10-04T16:04:24.086-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:04:24.098-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.024 seconds
+[2024-10-04T16:04:38.368-0300] {processor.py:186} INFO - Started process (PID=12936) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:04:38.369-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T16:04:38.370-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:04:38.370-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:04:38.376-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:04:38.373-0300] {dagbag.py:386} ERROR - Failed to import: /home/gabzarp/airflow/dags/dag_air_polution.py
+Traceback (most recent call last):
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/gabzarp/airflow/dags/dag_air_polution.py", line 14, in <module>
+    get_data_from_api = BashOperator(
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 460, in apply_defaults
+    default_args, merged_params = get_merged_defaults(
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 175, in get_merged_defaults
+    args, params = _get_parent_defaults(dag, task_group)
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 160, in _get_parent_defaults
+    dag_args = copy.copy(dag.default_args)
+AttributeError: type object 'DAG' has no attribute 'default_args'. Did you mean: 'default_view'?
+[2024-10-04T16:04:38.378-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:04:38.393-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.030 seconds
+[2024-10-04T16:05:09.498-0300] {processor.py:186} INFO - Started process (PID=13274) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:05:09.499-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T16:05:09.500-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:05:09.500-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:05:09.505-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:05:09.502-0300] {dagbag.py:386} ERROR - Failed to import: /home/gabzarp/airflow/dags/dag_air_polution.py
+Traceback (most recent call last):
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/gabzarp/airflow/dags/dag_air_polution.py", line 14, in <module>
+    get_data_from_api = BashOperator(
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 460, in apply_defaults
+    default_args, merged_params = get_merged_defaults(
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 175, in get_merged_defaults
+    args, params = _get_parent_defaults(dag, task_group)
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 160, in _get_parent_defaults
+    dag_args = copy.copy(dag.default_args)
+AttributeError: type object 'DAG' has no attribute 'default_args'. Did you mean: 'default_view'?
+[2024-10-04T16:05:09.507-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:05:09.519-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.025 seconds
+[2024-10-04T16:05:38.887-0300] {processor.py:186} INFO - Started process (PID=13569) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:05:38.888-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T16:05:38.889-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:05:38.889-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:05:38.894-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:05:38.892-0300] {dagbag.py:386} ERROR - Failed to import: /home/gabzarp/airflow/dags/dag_air_polution.py
+Traceback (most recent call last):
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/gabzarp/airflow/dags/dag_air_polution.py", line 15, in <module>
+    get_data_from_api = BashOperator(
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 460, in apply_defaults
+    default_args, merged_params = get_merged_defaults(
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 175, in get_merged_defaults
+    args, params = _get_parent_defaults(dag, task_group)
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 160, in _get_parent_defaults
+    dag_args = copy.copy(dag.default_args)
+AttributeError: type object 'DAG' has no attribute 'default_args'. Did you mean: 'default_view'?
+[2024-10-04T16:05:38.897-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:05:38.909-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.026 seconds
+[2024-10-04T16:05:49.064-0300] {processor.py:186} INFO - Started process (PID=13670) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:05:49.065-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T16:05:49.066-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:05:49.065-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:05:49.071-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:05:49.068-0300] {dagbag.py:386} ERROR - Failed to import: /home/gabzarp/airflow/dags/dag_air_polution.py
+Traceback (most recent call last):
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/gabzarp/airflow/dags/dag_air_polution.py", line 15, in <module>
+    get_data_from_api = BashOperator(
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 460, in apply_defaults
+    default_args, merged_params = get_merged_defaults(
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 175, in get_merged_defaults
+    args, params = _get_parent_defaults(dag, task_group)
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 160, in _get_parent_defaults
+    dag_args = copy.copy(dag.default_args)
+AttributeError: type object 'DAG' has no attribute 'default_args'. Did you mean: 'default_view'?
+[2024-10-04T16:05:49.073-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:05:49.086-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.026 seconds
+[2024-10-04T16:06:19.281-0300] {processor.py:186} INFO - Started process (PID=14002) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:06:19.282-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T16:06:19.283-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:06:19.283-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:06:19.289-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:06:19.285-0300] {dagbag.py:386} ERROR - Failed to import: /home/gabzarp/airflow/dags/dag_air_polution.py
+Traceback (most recent call last):
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/gabzarp/airflow/dags/dag_air_polution.py", line 15, in <module>
+    get_data_from_api = BashOperator(
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 460, in apply_defaults
+    default_args, merged_params = get_merged_defaults(
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 175, in get_merged_defaults
+    args, params = _get_parent_defaults(dag, task_group)
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 160, in _get_parent_defaults
+    dag_args = copy.copy(dag.default_args)
+AttributeError: type object 'DAG' has no attribute 'default_args'. Did you mean: 'default_view'?
+[2024-10-04T16:06:19.291-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:06:19.304-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.026 seconds
+[2024-10-04T16:06:21.554-0300] {processor.py:186} INFO - Started process (PID=14018) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:06:21.554-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T16:06:21.555-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:06:21.555-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:06:21.562-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:06:21.559-0300] {dagbag.py:386} ERROR - Failed to import: /home/gabzarp/airflow/dags/dag_air_polution.py
+Traceback (most recent call last):
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/gabzarp/airflow/dags/dag_air_polution.py", line 14, in <module>
+    get_data_from_api = BashOperator(
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 460, in apply_defaults
+    default_args, merged_params = get_merged_defaults(
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 175, in get_merged_defaults
+    args, params = _get_parent_defaults(dag, task_group)
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 160, in _get_parent_defaults
+    dag_args = copy.copy(dag.default_args)
+AttributeError: type object 'DAG' has no attribute 'default_args'. Did you mean: 'default_view'?
+[2024-10-04T16:06:21.565-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:06:21.578-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.028 seconds
+[2024-10-04T16:06:40.341-0300] {processor.py:186} INFO - Started process (PID=14175) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:06:40.342-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T16:06:40.343-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:06:40.342-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:06:40.347-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:06:40.346-0300] {dagbag.py:386} ERROR - Failed to import: /home/gabzarp/airflow/dags/dag_air_polution.py
+Traceback (most recent call last):
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/gabzarp/airflow/dags/dag_air_polution.py", line 16, in <module>
+    dag=dag,
+NameError: name 'dag' is not defined
+[2024-10-04T16:06:40.348-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:06:40.361-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.025 seconds
+[2024-10-04T16:06:54.714-0300] {processor.py:186} INFO - Started process (PID=14301) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:06:54.715-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T16:06:54.716-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:06:54.715-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:06:54.721-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:06:54.718-0300] {dagbag.py:386} ERROR - Failed to import: /home/gabzarp/airflow/dags/dag_air_polution.py
+Traceback (most recent call last):
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/gabzarp/airflow/dags/dag_air_polution.py", line 14, in <module>
+    get_data_from_api = BashOperator(
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 460, in apply_defaults
+    default_args, merged_params = get_merged_defaults(
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 175, in get_merged_defaults
+    args, params = _get_parent_defaults(dag, task_group)
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 160, in _get_parent_defaults
+    dag_args = copy.copy(dag.default_args)
+AttributeError: type object 'DAG' has no attribute 'default_args'. Did you mean: 'default_view'?
+[2024-10-04T16:06:54.723-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:06:54.738-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.028 seconds
+[2024-10-04T16:07:24.942-0300] {processor.py:186} INFO - Started process (PID=14601) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:07:24.944-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T16:07:24.945-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:07:24.945-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:07:24.950-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:07:24.947-0300] {dagbag.py:386} ERROR - Failed to import: /home/gabzarp/airflow/dags/dag_air_polution.py
+Traceback (most recent call last):
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/gabzarp/airflow/dags/dag_air_polution.py", line 14, in <module>
+    get_data_from_api = BashOperator(
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 460, in apply_defaults
+    default_args, merged_params = get_merged_defaults(
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 175, in get_merged_defaults
+    args, params = _get_parent_defaults(dag, task_group)
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 160, in _get_parent_defaults
+    dag_args = copy.copy(dag.default_args)
+AttributeError: type object 'DAG' has no attribute 'default_args'. Did you mean: 'default_view'?
+[2024-10-04T16:07:24.953-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:07:24.968-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.031 seconds
+[2024-10-04T16:07:39.135-0300] {processor.py:186} INFO - Started process (PID=14709) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:07:39.136-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T16:07:39.137-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:07:39.137-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:07:39.141-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:07:39.140-0300] {dagbag.py:386} ERROR - Failed to import: /home/gabzarp/airflow/dags/dag_air_polution.py
+Traceback (most recent call last):
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/gabzarp/airflow/dags/dag_air_polution.py", line 14, in <module>
+    get_data_from_api = BashOperator(
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/operators/bash.py", line 158, in __init__
+    super().__init__(**kwargs)
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 938, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to BashOperator (task_id: get_data_from_api). Invalid arguments were:
+**kwargs: {'provide_context': True}
+[2024-10-04T16:07:39.141-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:07:39.155-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.024 seconds
+[2024-10-04T16:08:00.814-0300] {processor.py:186} INFO - Started process (PID=14969) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:08:00.815-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T16:08:00.816-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:08:00.815-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:08:00.819-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:08:00.818-0300] {dagbag.py:386} ERROR - Failed to import: /home/gabzarp/airflow/dags/dag_air_polution.py
+Traceback (most recent call last):
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/gabzarp/airflow/dags/dag_air_polution.py", line 14, in <module>
+    get_data_from_api = BashOperator(
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/operators/bash.py", line 158, in __init__
+    super().__init__(**kwargs)
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 490, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/gabzarp/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 938, in __init__
+    raise AirflowException(
+airflow.exceptions.AirflowException: Invalid arguments were passed to BashOperator (task_id: get_data_from_api). Invalid arguments were:
+**kwargs: {'provide_context': True}
+[2024-10-04T16:08:00.820-0300] {processor.py:927} WARNING - No viable dags retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:08:00.834-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.024 seconds
+[2024-10-04T16:08:09.582-0300] {processor.py:186} INFO - Started process (PID=15073) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:08:09.583-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T16:08:09.585-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:08:09.584-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:08:09.593-0300] {processor.py:925} INFO - DAG(s) 'dag_air_polution' retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:08:09.664-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:08:09.664-0300] {override.py:1900} INFO - Created Permission View: can edit on DAG:dag_air_polution
+[2024-10-04T16:08:09.675-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:08:09.675-0300] {override.py:1900} INFO - Created Permission View: can delete on DAG:dag_air_polution
+[2024-10-04T16:08:09.683-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:08:09.682-0300] {override.py:1900} INFO - Created Permission View: can read on DAG:dag_air_polution
+[2024-10-04T16:08:09.699-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:08:09.698-0300] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:dag_air_polution
+[2024-10-04T16:08:09.707-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:08:09.707-0300] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:dag_air_polution
+[2024-10-04T16:08:09.715-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:08:09.715-0300] {override.py:1900} INFO - Created Permission View: can create on DAG Run:dag_air_polution
+[2024-10-04T16:08:09.725-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:08:09.724-0300] {override.py:1900} INFO - Created Permission View: can read on DAG Run:dag_air_polution
+[2024-10-04T16:08:09.725-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:08:09.725-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T16:08:09.837-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:08:09.837-0300] {dag.py:3252} INFO - Creating ORM DAG for dag_air_polution
+[2024-10-04T16:08:09.838-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:08:09.838-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_air_polution to None, run_after=None
+[2024-10-04T16:08:09.857-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.279 seconds
+[2024-10-04T16:08:39.960-0300] {processor.py:186} INFO - Started process (PID=15552) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:08:39.961-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T16:08:39.962-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:08:39.962-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:08:39.968-0300] {processor.py:925} INFO - DAG(s) 'dag_air_polution' retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:08:39.980-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:08:39.979-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T16:08:39.989-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:08:39.988-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_air_polution to None, run_after=None
+[2024-10-04T16:08:40.002-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.045 seconds
+[2024-10-04T16:09:10.265-0300] {processor.py:186} INFO - Started process (PID=15888) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:09:10.266-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T16:09:10.267-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:09:10.267-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:09:10.274-0300] {processor.py:925} INFO - DAG(s) 'dag_air_polution' retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:09:10.285-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:09:10.285-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T16:09:10.293-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:09:10.293-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_air_polution to None, run_after=None
+[2024-10-04T16:09:10.309-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.048 seconds
+[2024-10-04T16:09:40.575-0300] {processor.py:186} INFO - Started process (PID=16159) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:09:40.576-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T16:09:40.577-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:09:40.577-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:09:40.584-0300] {processor.py:925} INFO - DAG(s) 'dag_air_polution' retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:09:40.595-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:09:40.594-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T16:09:40.603-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:09:40.602-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_air_polution to None, run_after=None
+[2024-10-04T16:09:40.616-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.044 seconds
+[2024-10-04T16:10:10.943-0300] {processor.py:186} INFO - Started process (PID=16430) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:10:10.944-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T16:10:10.945-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:10:10.945-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:10:10.952-0300] {processor.py:925} INFO - DAG(s) 'dag_air_polution' retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:10:10.965-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:10:10.964-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T16:10:10.973-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:10:10.973-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_air_polution to None, run_after=None
+[2024-10-04T16:10:10.991-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.054 seconds
+[2024-10-04T16:10:41.248-0300] {processor.py:186} INFO - Started process (PID=16636) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:10:41.249-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T16:10:41.250-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:10:41.250-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:10:41.257-0300] {processor.py:925} INFO - DAG(s) 'dag_air_polution' retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:10:41.268-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:10:41.268-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T16:10:41.275-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:10:41.275-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_air_polution to None, run_after=None
+[2024-10-04T16:10:41.291-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.046 seconds
+[2024-10-04T16:11:11.433-0300] {processor.py:186} INFO - Started process (PID=16906) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:11:11.434-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T16:11:11.435-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:11:11.434-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:11:11.441-0300] {processor.py:925} INFO - DAG(s) 'dag_air_polution' retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:11:11.452-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:11:11.452-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T16:11:11.460-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:11:11.460-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_air_polution to None, run_after=None
+[2024-10-04T16:11:11.474-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.046 seconds
+[2024-10-04T16:11:41.625-0300] {processor.py:186} INFO - Started process (PID=17117) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:11:41.626-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T16:11:41.627-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:11:41.627-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:11:41.633-0300] {processor.py:925} INFO - DAG(s) 'dag_air_polution' retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:11:41.644-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:11:41.644-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T16:11:41.652-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:11:41.652-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_air_polution to None, run_after=None
+[2024-10-04T16:11:41.669-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.048 seconds
+[2024-10-04T16:12:11.819-0300] {processor.py:186} INFO - Started process (PID=17382) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:12:11.820-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T16:12:11.821-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:12:11.821-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:12:11.828-0300] {processor.py:925} INFO - DAG(s) 'dag_air_polution' retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:12:11.839-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:12:11.839-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T16:12:11.848-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:12:11.848-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_air_polution to None, run_after=None
+[2024-10-04T16:12:11.953-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.138 seconds
+[2024-10-04T16:12:42.110-0300] {processor.py:186} INFO - Started process (PID=17593) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:12:42.111-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T16:12:42.111-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:12:42.111-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:12:42.117-0300] {processor.py:925} INFO - DAG(s) 'dag_air_polution' retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:12:42.130-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:12:42.129-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T16:12:42.138-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:12:42.138-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_air_polution to None, run_after=None
+[2024-10-04T16:12:42.152-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.046 seconds
+[2024-10-04T16:13:12.965-0300] {processor.py:186} INFO - Started process (PID=18057) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:13:12.966-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T16:13:12.967-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:13:12.967-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:13:12.973-0300] {processor.py:925} INFO - DAG(s) 'dag_air_polution' retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:13:12.985-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:13:12.985-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T16:13:12.993-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:13:12.993-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_air_polution to None, run_after=None
+[2024-10-04T16:13:13.009-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.048 seconds
+[2024-10-04T16:13:43.281-0300] {processor.py:186} INFO - Started process (PID=18268) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:13:43.281-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T16:13:43.282-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:13:43.282-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:13:43.289-0300] {processor.py:925} INFO - DAG(s) 'dag_air_polution' retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:13:43.300-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:13:43.299-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T16:13:43.307-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:13:43.307-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_air_polution to None, run_after=None
+[2024-10-04T16:13:43.321-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.045 seconds
+[2024-10-04T16:14:13.662-0300] {processor.py:186} INFO - Started process (PID=18542) to work on /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:14:13.662-0300] {processor.py:914} INFO - Processing file /home/gabzarp/airflow/dags/dag_air_polution.py for tasks to queue
+[2024-10-04T16:14:13.663-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:14:13.663-0300] {dagbag.py:587} INFO - Filling up the DagBag from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:14:13.670-0300] {processor.py:925} INFO - DAG(s) 'dag_air_polution' retrieved from /home/gabzarp/airflow/dags/dag_air_polution.py
+[2024-10-04T16:14:13.681-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:14:13.681-0300] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-10-04T16:14:13.689-0300] {logging_mixin.py:190} INFO - [2024-10-04T16:14:13.689-0300] {dag.py:4156} INFO - Setting next_dagrun for dag_air_polution to None, run_after=None
+[2024-10-04T16:14:13.706-0300] {processor.py:208} INFO - Processing /home/gabzarp/airflow/dags/dag_air_polution.py took 0.048 seconds

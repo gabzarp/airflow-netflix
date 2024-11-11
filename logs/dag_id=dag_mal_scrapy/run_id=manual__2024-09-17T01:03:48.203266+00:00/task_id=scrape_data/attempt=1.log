@@ -1,0 +1,331 @@
+[2024-09-16T22:03:51.699-0300] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-09-16T22:03:51.712-0300] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_mal_scrapy.scrape_data manual__2024-09-17T01:03:48.203266+00:00 [queued]>
+[2024-09-16T22:03:51.717-0300] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_mal_scrapy.scrape_data manual__2024-09-17T01:03:48.203266+00:00 [queued]>
+[2024-09-16T22:03:51.717-0300] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2024-09-16T22:03:51.733-0300] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): scrape_data> on 2024-09-17 01:03:48.203266+00:00
+[2024-09-16T22:03:51.739-0300] {standard_task_runner.py:72} INFO - Started process 169763 to run task
+[2024-09-16T22:03:51.742-0300] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'dag_mal_scrapy', 'scrape_data', 'manual__2024-09-17T01:03:48.203266+00:00', '--job-id', '104', '--raw', '--subdir', 'DAGS_FOLDER/dag_mal_scrapy.py', '--cfg-path', '/tmp/tmpx2kdxnmi']
+[2024-09-16T22:03:51.744-0300] {standard_task_runner.py:105} INFO - Job 104: Subtask scrape_data
+[2024-09-16T22:03:51.776-0300] {task_command.py:467} INFO - Running <TaskInstance: dag_mal_scrapy.scrape_data manual__2024-09-17T01:03:48.203266+00:00 [running]> on host DESKTOP-PEJJLJO.
+[2024-09-16T22:03:51.847-0300] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='dag_mal_scrapy' AIRFLOW_CTX_TASK_ID='scrape_data' AIRFLOW_CTX_EXECUTION_DATE='2024-09-17T01:03:48.203266+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-09-17T01:03:48.203266+00:00'
+[2024-09-16T22:03:51.847-0300] {taskinstance.py:731} INFO - ::endgroup::
+[2024-09-16T22:03:51.857-0300] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-09-16T22:03:51.858-0300] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python3 ~/airflow/python/mal_scrapy.py']
+[2024-09-16T22:03:51.865-0300] {subprocess.py:86} INFO - Output:
+[2024-09-16T22:03:52.417-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [scrapy.utils.log] INFO: Scrapy 2.11.2 started (bot: scrapybot)
+[2024-09-16T22:03:52.419-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [scrapy.utils.log] INFO: Versions: lxml 5.3.0.0, libxml2 2.12.9, cssselect 1.2.0, parsel 1.9.1, w3lib 2.2.1, Twisted 24.7.0, Python 3.10.12 (main, Jul 29 2024, 16:56:48) [GCC 11.4.0], pyOpenSSL 24.2.1 (OpenSSL 3.2.2 4 Jun 2024), cryptography 42.0.8, Platform Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.35
+[2024-09-16T22:03:52.421-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [scrapy.addons] INFO: Enabled addons:
+[2024-09-16T22:03:52.421-0300] {subprocess.py:93} INFO - []
+[2024-09-16T22:03:52.422-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.epollreactor.EPollReactor
+[2024-09-16T22:03:52.428-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [scrapy.extensions.telnet] INFO: Telnet Password: 5ae1a8575d15e449
+[2024-09-16T22:03:52.467-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [scrapy.middleware] INFO: Enabled extensions:
+[2024-09-16T22:03:52.467-0300] {subprocess.py:93} INFO - ['scrapy.extensions.corestats.CoreStats',
+[2024-09-16T22:03:52.468-0300] {subprocess.py:93} INFO -  'scrapy.extensions.telnet.TelnetConsole',
+[2024-09-16T22:03:52.468-0300] {subprocess.py:93} INFO -  'scrapy.extensions.memusage.MemoryUsage',
+[2024-09-16T22:03:52.468-0300] {subprocess.py:93} INFO -  'scrapy.extensions.logstats.LogStats']
+[2024-09-16T22:03:52.468-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [scrapy.crawler] INFO: Overridden settings:
+[2024-09-16T22:03:52.468-0300] {subprocess.py:93} INFO - {'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7'}
+[2024-09-16T22:03:52.538-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Not in REPL -> leaving logger event level as is.
+[2024-09-16T22:03:52.539-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.address`.
+[2024-09-16T22:03:52.540-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Provider `faker.providers.address` has been localized to `en_US`.
+[2024-09-16T22:03:52.542-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.automotive`.
+[2024-09-16T22:03:52.543-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Provider `faker.providers.automotive` has been localized to `en_US`.
+[2024-09-16T22:03:52.543-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.bank`.
+[2024-09-16T22:03:52.544-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+[2024-09-16T22:03:52.544-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.barcode`.
+[2024-09-16T22:03:52.545-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Provider `faker.providers.barcode` has been localized to `en_US`.
+[2024-09-16T22:03:52.546-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.color`.
+[2024-09-16T22:03:52.546-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Provider `faker.providers.color` has been localized to `en_US`.
+[2024-09-16T22:03:52.547-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.company`.
+[2024-09-16T22:03:52.548-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Provider `faker.providers.company` has been localized to `en_US`.
+[2024-09-16T22:03:52.548-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.credit_card`.
+[2024-09-16T22:03:52.548-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Provider `faker.providers.credit_card` has been localized to `en_US`.
+[2024-09-16T22:03:52.549-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.currency`.
+[2024-09-16T22:03:52.549-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Provider `faker.providers.currency` has been localized to `en_US`.
+[2024-09-16T22:03:52.550-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.date_time`.
+[2024-09-16T22:03:52.550-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Provider `faker.providers.date_time` has been localized to `en_US`.
+[2024-09-16T22:03:52.551-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Provider `faker.providers.emoji` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2024-09-16T22:03:52.551-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2024-09-16T22:03:52.551-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.geo`.
+[2024-09-16T22:03:52.551-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Provider `faker.providers.geo` has been localized to `en_US`.
+[2024-09-16T22:03:52.552-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.internet`.
+[2024-09-16T22:03:52.553-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Provider `faker.providers.internet` has been localized to `en_US`.
+[2024-09-16T22:03:52.553-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.isbn`.
+[2024-09-16T22:03:52.553-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Provider `faker.providers.isbn` has been localized to `en_US`.
+[2024-09-16T22:03:52.553-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.job`.
+[2024-09-16T22:03:52.554-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Provider `faker.providers.job` has been localized to `en_US`.
+[2024-09-16T22:03:52.555-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.lorem`.
+[2024-09-16T22:03:52.555-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Provider `faker.providers.lorem` has been localized to `en_US`.
+[2024-09-16T22:03:52.557-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.misc`.
+[2024-09-16T22:03:52.557-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Provider `faker.providers.misc` has been localized to `en_US`.
+[2024-09-16T22:03:52.557-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.passport`.
+[2024-09-16T22:03:52.557-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Provider `faker.providers.passport` has been localized to `en_US`.
+[2024-09-16T22:03:52.557-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.person`.
+[2024-09-16T22:03:52.559-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Provider `faker.providers.person` has been localized to `en_US`.
+[2024-09-16T22:03:52.561-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.phone_number`.
+[2024-09-16T22:03:52.562-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Provider `faker.providers.phone_number` has been localized to `en_US`.
+[2024-09-16T22:03:52.563-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2024-09-16T22:03:52.563-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2024-09-16T22:03:52.563-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Provider `faker.providers.sbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2024-09-16T22:03:52.563-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.ssn`.
+[2024-09-16T22:03:52.564-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Provider `faker.providers.ssn` has been localized to `en_US`.
+[2024-09-16T22:03:52.564-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2024-09-16T22:03:52.564-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [scrapy_fake_useragent.middleware] DEBUG: Loaded User-Agent provider: scrapy_fake_useragent.providers.FakerProvider
+[2024-09-16T22:03:52.565-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [scrapy_fake_useragent.middleware] INFO: Using '<class 'scrapy_fake_useragent.providers.FakerProvider'>' as the User-Agent provider
+[2024-09-16T22:03:52.565-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.address`.
+[2024-09-16T22:03:52.567-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Provider `faker.providers.address` has been localized to `en_US`.
+[2024-09-16T22:03:52.567-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.automotive`.
+[2024-09-16T22:03:52.568-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Provider `faker.providers.automotive` has been localized to `en_US`.
+[2024-09-16T22:03:52.568-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.bank`.
+[2024-09-16T22:03:52.569-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+[2024-09-16T22:03:52.569-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.barcode`.
+[2024-09-16T22:03:52.570-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Provider `faker.providers.barcode` has been localized to `en_US`.
+[2024-09-16T22:03:52.570-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.color`.
+[2024-09-16T22:03:52.570-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Provider `faker.providers.color` has been localized to `en_US`.
+[2024-09-16T22:03:52.571-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.company`.
+[2024-09-16T22:03:52.573-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Provider `faker.providers.company` has been localized to `en_US`.
+[2024-09-16T22:03:52.573-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.credit_card`.
+[2024-09-16T22:03:52.573-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Provider `faker.providers.credit_card` has been localized to `en_US`.
+[2024-09-16T22:03:52.573-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.currency`.
+[2024-09-16T22:03:52.574-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Provider `faker.providers.currency` has been localized to `en_US`.
+[2024-09-16T22:03:52.574-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.date_time`.
+[2024-09-16T22:03:52.575-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Provider `faker.providers.date_time` has been localized to `en_US`.
+[2024-09-16T22:03:52.575-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Provider `faker.providers.emoji` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2024-09-16T22:03:52.575-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2024-09-16T22:03:52.576-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.geo`.
+[2024-09-16T22:03:52.576-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Provider `faker.providers.geo` has been localized to `en_US`.
+[2024-09-16T22:03:52.576-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.internet`.
+[2024-09-16T22:03:52.577-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Provider `faker.providers.internet` has been localized to `en_US`.
+[2024-09-16T22:03:52.578-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.isbn`.
+[2024-09-16T22:03:52.578-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Provider `faker.providers.isbn` has been localized to `en_US`.
+[2024-09-16T22:03:52.578-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.job`.
+[2024-09-16T22:03:52.579-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Provider `faker.providers.job` has been localized to `en_US`.
+[2024-09-16T22:03:52.580-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.lorem`.
+[2024-09-16T22:03:52.580-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Provider `faker.providers.lorem` has been localized to `en_US`.
+[2024-09-16T22:03:52.581-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.misc`.
+[2024-09-16T22:03:52.581-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Provider `faker.providers.misc` has been localized to `en_US`.
+[2024-09-16T22:03:52.581-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.passport`.
+[2024-09-16T22:03:52.581-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Provider `faker.providers.passport` has been localized to `en_US`.
+[2024-09-16T22:03:52.581-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.person`.
+[2024-09-16T22:03:52.583-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Provider `faker.providers.person` has been localized to `en_US`.
+[2024-09-16T22:03:52.583-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.phone_number`.
+[2024-09-16T22:03:52.584-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Provider `faker.providers.phone_number` has been localized to `en_US`.
+[2024-09-16T22:03:52.585-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2024-09-16T22:03:52.585-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2024-09-16T22:03:52.585-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Provider `faker.providers.sbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2024-09-16T22:03:52.585-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.ssn`.
+[2024-09-16T22:03:52.586-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Provider `faker.providers.ssn` has been localized to `en_US`.
+[2024-09-16T22:03:52.586-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [faker.factory] DEBUG: Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2024-09-16T22:03:52.586-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [scrapy_fake_useragent.middleware] DEBUG: Loaded User-Agent provider: scrapy_fake_useragent.providers.FakerProvider
+[2024-09-16T22:03:52.586-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [scrapy_fake_useragent.middleware] INFO: Using '<class 'scrapy_fake_useragent.providers.FakerProvider'>' as the User-Agent provider
+[2024-09-16T22:03:52.599-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [scrapy.middleware] INFO: Enabled downloader middlewares:
+[2024-09-16T22:03:52.599-0300] {subprocess.py:93} INFO - ['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+[2024-09-16T22:03:52.600-0300] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+[2024-09-16T22:03:52.600-0300] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+[2024-09-16T22:03:52.600-0300] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+[2024-09-16T22:03:52.600-0300] {subprocess.py:93} INFO -  'scrapy_fake_useragent.middleware.RandomUserAgentMiddleware',
+[2024-09-16T22:03:52.600-0300] {subprocess.py:93} INFO -  'scrapy_fake_useragent.middleware.RetryUserAgentMiddleware',
+[2024-09-16T22:03:52.600-0300] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+[2024-09-16T22:03:52.600-0300] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+[2024-09-16T22:03:52.600-0300] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+[2024-09-16T22:03:52.600-0300] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+[2024-09-16T22:03:52.601-0300] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+[2024-09-16T22:03:52.601-0300] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.stats.DownloaderStats']
+[2024-09-16T22:03:52.601-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [scrapy.middleware] INFO: Enabled spider middlewares:
+[2024-09-16T22:03:52.601-0300] {subprocess.py:93} INFO - ['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+[2024-09-16T22:03:52.601-0300] {subprocess.py:93} INFO -  'scrapy.spidermiddlewares.referer.RefererMiddleware',
+[2024-09-16T22:03:52.601-0300] {subprocess.py:93} INFO -  'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+[2024-09-16T22:03:52.601-0300] {subprocess.py:93} INFO -  'scrapy.spidermiddlewares.depth.DepthMiddleware']
+[2024-09-16T22:03:52.601-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [scrapy.middleware] INFO: Enabled item pipelines:
+[2024-09-16T22:03:52.602-0300] {subprocess.py:93} INFO - []
+[2024-09-16T22:03:52.602-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [scrapy.core.engine] INFO: Spider opened
+[2024-09-16T22:03:52.607-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+[2024-09-16T22:03:52.608-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:52 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+[2024-09-16T22:03:53.549-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php> (referer: None)
+[2024-09-16T22:03:55.613-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=50> (referer: https://myanimelist.net/topanime.php)
+[2024-09-16T22:03:58.357-0300] {subprocess.py:93} INFO - 2024-09-16 22:03:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=100> (referer: https://myanimelist.net/topanime.php?limit=50)
+[2024-09-16T22:04:01.304-0300] {subprocess.py:93} INFO - 2024-09-16 22:04:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=150> (referer: https://myanimelist.net/topanime.php?limit=100)
+[2024-09-16T22:04:03.431-0300] {subprocess.py:93} INFO - 2024-09-16 22:04:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=200> (referer: https://myanimelist.net/topanime.php?limit=150)
+[2024-09-16T22:04:05.425-0300] {subprocess.py:93} INFO - 2024-09-16 22:04:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=250> (referer: https://myanimelist.net/topanime.php?limit=200)
+[2024-09-16T22:04:07.138-0300] {subprocess.py:93} INFO - 2024-09-16 22:04:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=300> (referer: https://myanimelist.net/topanime.php?limit=250)
+[2024-09-16T22:04:10.057-0300] {subprocess.py:93} INFO - 2024-09-16 22:04:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=350> (referer: https://myanimelist.net/topanime.php?limit=300)
+[2024-09-16T22:04:12.331-0300] {subprocess.py:93} INFO - 2024-09-16 22:04:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=400> (referer: https://myanimelist.net/topanime.php?limit=350)
+[2024-09-16T22:04:15.333-0300] {subprocess.py:93} INFO - 2024-09-16 22:04:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=450> (referer: https://myanimelist.net/topanime.php?limit=400)
+[2024-09-16T22:04:17.799-0300] {subprocess.py:93} INFO - 2024-09-16 22:04:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=500> (referer: https://myanimelist.net/topanime.php?limit=450)
+[2024-09-16T22:04:20.694-0300] {subprocess.py:93} INFO - 2024-09-16 22:04:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=550> (referer: https://myanimelist.net/topanime.php?limit=500)
+[2024-09-16T22:04:23.441-0300] {subprocess.py:93} INFO - 2024-09-16 22:04:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=600> (referer: https://myanimelist.net/topanime.php?limit=550)
+[2024-09-16T22:04:25.910-0300] {subprocess.py:93} INFO - 2024-09-16 22:04:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=650> (referer: https://myanimelist.net/topanime.php?limit=600)
+[2024-09-16T22:04:27.158-0300] {subprocess.py:93} INFO - 2024-09-16 22:04:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=700> (referer: https://myanimelist.net/topanime.php?limit=650)
+[2024-09-16T22:04:29.181-0300] {subprocess.py:93} INFO - 2024-09-16 22:04:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=750> (referer: https://myanimelist.net/topanime.php?limit=700)
+[2024-09-16T22:04:31.145-0300] {subprocess.py:93} INFO - 2024-09-16 22:04:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=800> (referer: https://myanimelist.net/topanime.php?limit=750)
+[2024-09-16T22:04:34.185-0300] {subprocess.py:93} INFO - 2024-09-16 22:04:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=850> (referer: https://myanimelist.net/topanime.php?limit=800)
+[2024-09-16T22:04:36.001-0300] {subprocess.py:93} INFO - 2024-09-16 22:04:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=900> (referer: https://myanimelist.net/topanime.php?limit=850)
+[2024-09-16T22:04:39.138-0300] {subprocess.py:93} INFO - 2024-09-16 22:04:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=950> (referer: https://myanimelist.net/topanime.php?limit=900)
+[2024-09-16T22:04:40.935-0300] {subprocess.py:93} INFO - 2024-09-16 22:04:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=1000> (referer: https://myanimelist.net/topanime.php?limit=950)
+[2024-09-16T22:04:43.667-0300] {subprocess.py:93} INFO - 2024-09-16 22:04:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=1050> (referer: https://myanimelist.net/topanime.php?limit=1000)
+[2024-09-16T22:04:45.034-0300] {subprocess.py:93} INFO - 2024-09-16 22:04:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=1100> (referer: https://myanimelist.net/topanime.php?limit=1050)
+[2024-09-16T22:04:47.783-0300] {subprocess.py:93} INFO - 2024-09-16 22:04:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=1150> (referer: https://myanimelist.net/topanime.php?limit=1100)
+[2024-09-16T22:04:50.342-0300] {subprocess.py:93} INFO - 2024-09-16 22:04:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=1200> (referer: https://myanimelist.net/topanime.php?limit=1150)
+[2024-09-16T22:04:52.607-0300] {subprocess.py:93} INFO - 2024-09-16 22:04:52 [scrapy.extensions.logstats] INFO: Crawled 25 pages (at 25 pages/min), scraped 0 items (at 0 items/min)
+[2024-09-16T22:04:53.145-0300] {subprocess.py:93} INFO - 2024-09-16 22:04:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=1250> (referer: https://myanimelist.net/topanime.php?limit=1200)
+[2024-09-16T22:04:55.960-0300] {subprocess.py:93} INFO - 2024-09-16 22:04:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=1300> (referer: https://myanimelist.net/topanime.php?limit=1250)
+[2024-09-16T22:04:58.855-0300] {subprocess.py:93} INFO - 2024-09-16 22:04:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=1350> (referer: https://myanimelist.net/topanime.php?limit=1300)
+[2024-09-16T22:05:01.831-0300] {subprocess.py:93} INFO - 2024-09-16 22:05:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=1400> (referer: https://myanimelist.net/topanime.php?limit=1350)
+[2024-09-16T22:05:04.492-0300] {subprocess.py:93} INFO - 2024-09-16 22:05:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=1450> (referer: https://myanimelist.net/topanime.php?limit=1400)
+[2024-09-16T22:05:06.287-0300] {subprocess.py:93} INFO - 2024-09-16 22:05:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=1500> (referer: https://myanimelist.net/topanime.php?limit=1450)
+[2024-09-16T22:05:07.488-0300] {subprocess.py:93} INFO - 2024-09-16 22:05:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=1550> (referer: https://myanimelist.net/topanime.php?limit=1500)
+[2024-09-16T22:05:10.202-0300] {subprocess.py:93} INFO - 2024-09-16 22:05:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=1600> (referer: https://myanimelist.net/topanime.php?limit=1550)
+[2024-09-16T22:05:12.865-0300] {subprocess.py:93} INFO - 2024-09-16 22:05:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=1650> (referer: https://myanimelist.net/topanime.php?limit=1600)
+[2024-09-16T22:05:15.345-0300] {subprocess.py:93} INFO - 2024-09-16 22:05:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=1700> (referer: https://myanimelist.net/topanime.php?limit=1650)
+[2024-09-16T22:05:17.714-0300] {subprocess.py:93} INFO - 2024-09-16 22:05:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=1750> (referer: https://myanimelist.net/topanime.php?limit=1700)
+[2024-09-16T22:05:20.203-0300] {subprocess.py:93} INFO - 2024-09-16 22:05:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=1800> (referer: https://myanimelist.net/topanime.php?limit=1750)
+[2024-09-16T22:05:23.085-0300] {subprocess.py:93} INFO - 2024-09-16 22:05:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=1850> (referer: https://myanimelist.net/topanime.php?limit=1800)
+[2024-09-16T22:05:25.414-0300] {subprocess.py:93} INFO - 2024-09-16 22:05:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=1900> (referer: https://myanimelist.net/topanime.php?limit=1850)
+[2024-09-16T22:05:27.865-0300] {subprocess.py:93} INFO - 2024-09-16 22:05:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=1950> (referer: https://myanimelist.net/topanime.php?limit=1900)
+[2024-09-16T22:05:30.761-0300] {subprocess.py:93} INFO - 2024-09-16 22:05:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=2000> (referer: https://myanimelist.net/topanime.php?limit=1950)
+[2024-09-16T22:05:33.599-0300] {subprocess.py:93} INFO - 2024-09-16 22:05:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=2050> (referer: https://myanimelist.net/topanime.php?limit=2000)
+[2024-09-16T22:05:35.898-0300] {subprocess.py:93} INFO - 2024-09-16 22:05:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=2100> (referer: https://myanimelist.net/topanime.php?limit=2050)
+[2024-09-16T22:05:38.431-0300] {subprocess.py:93} INFO - 2024-09-16 22:05:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=2150> (referer: https://myanimelist.net/topanime.php?limit=2100)
+[2024-09-16T22:05:40.528-0300] {subprocess.py:93} INFO - 2024-09-16 22:05:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=2200> (referer: https://myanimelist.net/topanime.php?limit=2150)
+[2024-09-16T22:05:42.739-0300] {subprocess.py:93} INFO - 2024-09-16 22:05:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=2250> (referer: https://myanimelist.net/topanime.php?limit=2200)
+[2024-09-16T22:05:45.765-0300] {subprocess.py:93} INFO - 2024-09-16 22:05:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=2300> (referer: https://myanimelist.net/topanime.php?limit=2250)
+[2024-09-16T22:05:48.209-0300] {subprocess.py:93} INFO - 2024-09-16 22:05:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=2350> (referer: https://myanimelist.net/topanime.php?limit=2300)
+[2024-09-16T22:05:50.913-0300] {subprocess.py:93} INFO - 2024-09-16 22:05:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=2400> (referer: https://myanimelist.net/topanime.php?limit=2350)
+[2024-09-16T22:05:52.607-0300] {subprocess.py:93} INFO - 2024-09-16 22:05:52 [scrapy.extensions.logstats] INFO: Crawled 49 pages (at 24 pages/min), scraped 0 items (at 0 items/min)
+[2024-09-16T22:05:53.432-0300] {subprocess.py:93} INFO - 2024-09-16 22:05:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=2450> (referer: https://myanimelist.net/topanime.php?limit=2400)
+[2024-09-16T22:05:56.392-0300] {subprocess.py:93} INFO - 2024-09-16 22:05:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=2500> (referer: https://myanimelist.net/topanime.php?limit=2450)
+[2024-09-16T22:05:58.751-0300] {subprocess.py:93} INFO - 2024-09-16 22:05:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=2550> (referer: https://myanimelist.net/topanime.php?limit=2500)
+[2024-09-16T22:06:01.051-0300] {subprocess.py:93} INFO - 2024-09-16 22:06:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=2600> (referer: https://myanimelist.net/topanime.php?limit=2550)
+[2024-09-16T22:06:03.362-0300] {subprocess.py:93} INFO - 2024-09-16 22:06:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=2650> (referer: https://myanimelist.net/topanime.php?limit=2600)
+[2024-09-16T22:06:05.419-0300] {subprocess.py:93} INFO - 2024-09-16 22:06:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=2700> (referer: https://myanimelist.net/topanime.php?limit=2650)
+[2024-09-16T22:06:08.019-0300] {subprocess.py:93} INFO - 2024-09-16 22:06:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=2750> (referer: https://myanimelist.net/topanime.php?limit=2700)
+[2024-09-16T22:06:10.132-0300] {subprocess.py:93} INFO - 2024-09-16 22:06:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=2800> (referer: https://myanimelist.net/topanime.php?limit=2750)
+[2024-09-16T22:06:12.650-0300] {subprocess.py:93} INFO - 2024-09-16 22:06:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=2850> (referer: https://myanimelist.net/topanime.php?limit=2800)
+[2024-09-16T22:06:15.101-0300] {subprocess.py:93} INFO - 2024-09-16 22:06:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=2900> (referer: https://myanimelist.net/topanime.php?limit=2850)
+[2024-09-16T22:06:18.043-0300] {subprocess.py:93} INFO - 2024-09-16 22:06:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=2950> (referer: https://myanimelist.net/topanime.php?limit=2900)
+[2024-09-16T22:06:20.032-0300] {subprocess.py:93} INFO - 2024-09-16 22:06:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=3000> (referer: https://myanimelist.net/topanime.php?limit=2950)
+[2024-09-16T22:06:22.383-0300] {subprocess.py:93} INFO - 2024-09-16 22:06:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=3050> (referer: https://myanimelist.net/topanime.php?limit=3000)
+[2024-09-16T22:06:25.111-0300] {subprocess.py:93} INFO - 2024-09-16 22:06:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=3100> (referer: https://myanimelist.net/topanime.php?limit=3050)
+[2024-09-16T22:06:27.381-0300] {subprocess.py:93} INFO - 2024-09-16 22:06:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=3150> (referer: https://myanimelist.net/topanime.php?limit=3100)
+[2024-09-16T22:06:30.177-0300] {subprocess.py:93} INFO - 2024-09-16 22:06:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=3200> (referer: https://myanimelist.net/topanime.php?limit=3150)
+[2024-09-16T22:06:32.862-0300] {subprocess.py:93} INFO - 2024-09-16 22:06:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=3250> (referer: https://myanimelist.net/topanime.php?limit=3200)
+[2024-09-16T22:06:35.891-0300] {subprocess.py:93} INFO - 2024-09-16 22:06:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=3300> (referer: https://myanimelist.net/topanime.php?limit=3250)
+[2024-09-16T22:06:38.611-0300] {subprocess.py:93} INFO - 2024-09-16 22:06:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=3350> (referer: https://myanimelist.net/topanime.php?limit=3300)
+[2024-09-16T22:06:41.485-0300] {subprocess.py:93} INFO - 2024-09-16 22:06:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=3400> (referer: https://myanimelist.net/topanime.php?limit=3350)
+[2024-09-16T22:06:44.352-0300] {subprocess.py:93} INFO - 2024-09-16 22:06:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=3450> (referer: https://myanimelist.net/topanime.php?limit=3400)
+[2024-09-16T22:06:47.040-0300] {subprocess.py:93} INFO - 2024-09-16 22:06:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=3500> (referer: https://myanimelist.net/topanime.php?limit=3450)
+[2024-09-16T22:06:49.628-0300] {subprocess.py:93} INFO - 2024-09-16 22:06:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=3550> (referer: https://myanimelist.net/topanime.php?limit=3500)
+[2024-09-16T22:06:52.439-0300] {subprocess.py:93} INFO - 2024-09-16 22:06:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=3600> (referer: https://myanimelist.net/topanime.php?limit=3550)
+[2024-09-16T22:06:52.608-0300] {subprocess.py:93} INFO - 2024-09-16 22:06:52 [scrapy.extensions.logstats] INFO: Crawled 73 pages (at 24 pages/min), scraped 0 items (at 0 items/min)
+[2024-09-16T22:06:55.366-0300] {subprocess.py:93} INFO - 2024-09-16 22:06:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=3650> (referer: https://myanimelist.net/topanime.php?limit=3600)
+[2024-09-16T22:06:57.794-0300] {subprocess.py:93} INFO - 2024-09-16 22:06:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=3700> (referer: https://myanimelist.net/topanime.php?limit=3650)
+[2024-09-16T22:07:00.478-0300] {subprocess.py:93} INFO - 2024-09-16 22:07:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=3750> (referer: https://myanimelist.net/topanime.php?limit=3700)
+[2024-09-16T22:07:03.055-0300] {subprocess.py:93} INFO - 2024-09-16 22:07:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=3800> (referer: https://myanimelist.net/topanime.php?limit=3750)
+[2024-09-16T22:07:04.981-0300] {subprocess.py:93} INFO - 2024-09-16 22:07:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=3850> (referer: https://myanimelist.net/topanime.php?limit=3800)
+[2024-09-16T22:07:05.099-0300] {subprocess.py:93} INFO - 2024-09-16 22:07:05 [scrapy.core.engine] INFO: Closing spider (finished)
+[2024-09-16T22:07:05.099-0300] {subprocess.py:93} INFO - 2024-09-16 22:07:05 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+[2024-09-16T22:07:05.099-0300] {subprocess.py:93} INFO - {'downloader/request_bytes': 36978,
+[2024-09-16T22:07:05.099-0300] {subprocess.py:93} INFO -  'downloader/request_count': 78,
+[2024-09-16T22:07:05.099-0300] {subprocess.py:93} INFO -  'downloader/request_method_count/GET': 78,
+[2024-09-16T22:07:05.100-0300] {subprocess.py:93} INFO -  'downloader/response_bytes': 13205861,
+[2024-09-16T22:07:05.100-0300] {subprocess.py:93} INFO -  'downloader/response_count': 78,
+[2024-09-16T22:07:05.100-0300] {subprocess.py:93} INFO -  'downloader/response_status_count/200': 78,
+[2024-09-16T22:07:05.100-0300] {subprocess.py:93} INFO -  'elapsed_time_seconds': 192.492552,
+[2024-09-16T22:07:05.100-0300] {subprocess.py:93} INFO -  'finish_reason': 'finished',
+[2024-09-16T22:07:05.100-0300] {subprocess.py:93} INFO -  'finish_time': datetime.datetime(2024, 9, 17, 1, 7, 5, 99312, tzinfo=datetime.timezone.utc),
+[2024-09-16T22:07:05.100-0300] {subprocess.py:93} INFO -  'log_count/DEBUG': 170,
+[2024-09-16T22:07:05.100-0300] {subprocess.py:93} INFO -  'log_count/INFO': 15,
+[2024-09-16T22:07:05.100-0300] {subprocess.py:93} INFO -  'memusage/max': 147853312,
+[2024-09-16T22:07:05.100-0300] {subprocess.py:93} INFO -  'memusage/startup': 112340992,
+[2024-09-16T22:07:05.100-0300] {subprocess.py:93} INFO -  'request_depth_max': 77,
+[2024-09-16T22:07:05.100-0300] {subprocess.py:93} INFO -  'response_received_count': 78,
+[2024-09-16T22:07:05.100-0300] {subprocess.py:93} INFO -  'scheduler/dequeued': 78,
+[2024-09-16T22:07:05.100-0300] {subprocess.py:93} INFO -  'scheduler/dequeued/memory': 78,
+[2024-09-16T22:07:05.101-0300] {subprocess.py:93} INFO -  'scheduler/enqueued': 78,
+[2024-09-16T22:07:05.101-0300] {subprocess.py:93} INFO -  'scheduler/enqueued/memory': 78,
+[2024-09-16T22:07:05.101-0300] {subprocess.py:93} INFO -  'start_time': datetime.datetime(2024, 9, 17, 1, 3, 52, 606760, tzinfo=datetime.timezone.utc)}
+[2024-09-16T22:07:05.101-0300] {subprocess.py:93} INFO - 2024-09-16 22:07:05 [scrapy.core.engine] INFO: Spider closed (finished)
+[2024-09-16T22:07:05.226-0300] {subprocess.py:93} INFO - ?limit=50
+[2024-09-16T22:07:05.226-0300] {subprocess.py:93} INFO - ?limit=100
+[2024-09-16T22:07:05.226-0300] {subprocess.py:93} INFO - ?limit=150
+[2024-09-16T22:07:05.226-0300] {subprocess.py:93} INFO - ?limit=200
+[2024-09-16T22:07:05.226-0300] {subprocess.py:93} INFO - ?limit=250
+[2024-09-16T22:07:05.226-0300] {subprocess.py:93} INFO - ?limit=300
+[2024-09-16T22:07:05.226-0300] {subprocess.py:93} INFO - ?limit=350
+[2024-09-16T22:07:05.227-0300] {subprocess.py:93} INFO - ?limit=400
+[2024-09-16T22:07:05.227-0300] {subprocess.py:93} INFO - ?limit=450
+[2024-09-16T22:07:05.227-0300] {subprocess.py:93} INFO - ?limit=500
+[2024-09-16T22:07:05.227-0300] {subprocess.py:93} INFO - ?limit=550
+[2024-09-16T22:07:05.227-0300] {subprocess.py:93} INFO - ?limit=600
+[2024-09-16T22:07:05.227-0300] {subprocess.py:93} INFO - ?limit=650
+[2024-09-16T22:07:05.227-0300] {subprocess.py:93} INFO - ?limit=700
+[2024-09-16T22:07:05.227-0300] {subprocess.py:93} INFO - ?limit=750
+[2024-09-16T22:07:05.227-0300] {subprocess.py:93} INFO - ?limit=800
+[2024-09-16T22:07:05.227-0300] {subprocess.py:93} INFO - ?limit=850
+[2024-09-16T22:07:05.227-0300] {subprocess.py:93} INFO - ?limit=900
+[2024-09-16T22:07:05.227-0300] {subprocess.py:93} INFO - ?limit=950
+[2024-09-16T22:07:05.227-0300] {subprocess.py:93} INFO - ?limit=1000
+[2024-09-16T22:07:05.227-0300] {subprocess.py:93} INFO - ?limit=1050
+[2024-09-16T22:07:05.227-0300] {subprocess.py:93} INFO - ?limit=1100
+[2024-09-16T22:07:05.228-0300] {subprocess.py:93} INFO - ?limit=1150
+[2024-09-16T22:07:05.228-0300] {subprocess.py:93} INFO - ?limit=1200
+[2024-09-16T22:07:05.228-0300] {subprocess.py:93} INFO - ?limit=1250
+[2024-09-16T22:07:05.228-0300] {subprocess.py:93} INFO - ?limit=1300
+[2024-09-16T22:07:05.228-0300] {subprocess.py:93} INFO - ?limit=1350
+[2024-09-16T22:07:05.228-0300] {subprocess.py:93} INFO - ?limit=1400
+[2024-09-16T22:07:05.228-0300] {subprocess.py:93} INFO - ?limit=1450
+[2024-09-16T22:07:05.228-0300] {subprocess.py:93} INFO - ?limit=1500
+[2024-09-16T22:07:05.228-0300] {subprocess.py:93} INFO - ?limit=1550
+[2024-09-16T22:07:05.228-0300] {subprocess.py:93} INFO - ?limit=1600
+[2024-09-16T22:07:05.228-0300] {subprocess.py:93} INFO - ?limit=1650
+[2024-09-16T22:07:05.228-0300] {subprocess.py:93} INFO - ?limit=1700
+[2024-09-16T22:07:05.228-0300] {subprocess.py:93} INFO - ?limit=1750
+[2024-09-16T22:07:05.228-0300] {subprocess.py:93} INFO - ?limit=1800
+[2024-09-16T22:07:05.228-0300] {subprocess.py:93} INFO - ?limit=1850
+[2024-09-16T22:07:05.228-0300] {subprocess.py:93} INFO - ?limit=1900
+[2024-09-16T22:07:05.229-0300] {subprocess.py:93} INFO - ?limit=1950
+[2024-09-16T22:07:05.229-0300] {subprocess.py:93} INFO - ?limit=2000
+[2024-09-16T22:07:05.229-0300] {subprocess.py:93} INFO - ?limit=2050
+[2024-09-16T22:07:05.229-0300] {subprocess.py:93} INFO - ?limit=2100
+[2024-09-16T22:07:05.229-0300] {subprocess.py:93} INFO - ?limit=2150
+[2024-09-16T22:07:05.229-0300] {subprocess.py:93} INFO - ?limit=2200
+[2024-09-16T22:07:05.229-0300] {subprocess.py:93} INFO - ?limit=2250
+[2024-09-16T22:07:05.229-0300] {subprocess.py:93} INFO - ?limit=2300
+[2024-09-16T22:07:05.229-0300] {subprocess.py:93} INFO - ?limit=2350
+[2024-09-16T22:07:05.229-0300] {subprocess.py:93} INFO - ?limit=2400
+[2024-09-16T22:07:05.229-0300] {subprocess.py:93} INFO - ?limit=2450
+[2024-09-16T22:07:05.229-0300] {subprocess.py:93} INFO - ?limit=2500
+[2024-09-16T22:07:05.229-0300] {subprocess.py:93} INFO - ?limit=2550
+[2024-09-16T22:07:05.229-0300] {subprocess.py:93} INFO - ?limit=2600
+[2024-09-16T22:07:05.229-0300] {subprocess.py:93} INFO - ?limit=2650
+[2024-09-16T22:07:05.230-0300] {subprocess.py:93} INFO - ?limit=2700
+[2024-09-16T22:07:05.230-0300] {subprocess.py:93} INFO - ?limit=2750
+[2024-09-16T22:07:05.230-0300] {subprocess.py:93} INFO - ?limit=2800
+[2024-09-16T22:07:05.230-0300] {subprocess.py:93} INFO - ?limit=2850
+[2024-09-16T22:07:05.230-0300] {subprocess.py:93} INFO - ?limit=2900
+[2024-09-16T22:07:05.230-0300] {subprocess.py:93} INFO - ?limit=2950
+[2024-09-16T22:07:05.230-0300] {subprocess.py:93} INFO - ?limit=3000
+[2024-09-16T22:07:05.230-0300] {subprocess.py:93} INFO - ?limit=3050
+[2024-09-16T22:07:05.230-0300] {subprocess.py:93} INFO - ?limit=3100
+[2024-09-16T22:07:05.230-0300] {subprocess.py:93} INFO - ?limit=3150
+[2024-09-16T22:07:05.230-0300] {subprocess.py:93} INFO - ?limit=3200
+[2024-09-16T22:07:05.230-0300] {subprocess.py:93} INFO - ?limit=3250
+[2024-09-16T22:07:05.230-0300] {subprocess.py:93} INFO - ?limit=3300
+[2024-09-16T22:07:05.231-0300] {subprocess.py:93} INFO - ?limit=3350
+[2024-09-16T22:07:05.231-0300] {subprocess.py:93} INFO - ?limit=3400
+[2024-09-16T22:07:05.231-0300] {subprocess.py:93} INFO - ?limit=3450
+[2024-09-16T22:07:05.231-0300] {subprocess.py:93} INFO - ?limit=3500
+[2024-09-16T22:07:05.231-0300] {subprocess.py:93} INFO - ?limit=3550
+[2024-09-16T22:07:05.231-0300] {subprocess.py:93} INFO - ?limit=3600
+[2024-09-16T22:07:05.231-0300] {subprocess.py:93} INFO - ?limit=3650
+[2024-09-16T22:07:05.231-0300] {subprocess.py:93} INFO - ?limit=3700
+[2024-09-16T22:07:05.231-0300] {subprocess.py:93} INFO - ?limit=3750
+[2024-09-16T22:07:05.231-0300] {subprocess.py:93} INFO - ?limit=3800
+[2024-09-16T22:07:05.231-0300] {subprocess.py:93} INFO - ?limit=3850
+[2024-09-16T22:07:05.231-0300] {subprocess.py:93} INFO - None
+[2024-09-16T22:07:05.425-0300] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-09-16T22:07:05.441-0300] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-09-16T22:07:05.442-0300] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=dag_mal_scrapy, task_id=scrape_data, run_id=manual__2024-09-17T01:03:48.203266+00:00, execution_date=20240917T010348, start_date=20240917T010351, end_date=20240917T010705
+[2024-09-16T22:07:05.489-0300] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-09-16T22:07:05.499-0300] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-09-16T22:07:05.499-0300] {local_task_job_runner.py:245} INFO - ::endgroup::

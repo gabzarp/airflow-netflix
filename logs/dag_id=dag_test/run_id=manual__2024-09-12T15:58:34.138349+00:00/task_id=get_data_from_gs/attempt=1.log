@@ -1,0 +1,20 @@
+[2024-09-12T12:58:39.408-0300] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-09-12T12:58:39.415-0300] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_test.get_data_from_gs manual__2024-09-12T15:58:34.138349+00:00 [queued]>
+[2024-09-12T12:58:39.419-0300] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_test.get_data_from_gs manual__2024-09-12T15:58:34.138349+00:00 [queued]>
+[2024-09-12T12:58:39.419-0300] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2024-09-12T12:58:39.430-0300] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): get_data_from_gs> on 2024-09-12 15:58:34.138349+00:00
+[2024-09-12T12:58:39.433-0300] {standard_task_runner.py:72} INFO - Started process 10257 to run task
+[2024-09-12T12:58:39.435-0300] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'dag_test', 'get_data_from_gs', 'manual__2024-09-12T15:58:34.138349+00:00', '--job-id', '40', '--raw', '--subdir', 'DAGS_FOLDER/dag_test.py', '--cfg-path', '/tmp/tmp6e53jn_a']
+[2024-09-12T12:58:39.436-0300] {standard_task_runner.py:105} INFO - Job 40: Subtask get_data_from_gs
+[2024-09-12T12:58:39.459-0300] {task_command.py:467} INFO - Running <TaskInstance: dag_test.get_data_from_gs manual__2024-09-12T15:58:34.138349+00:00 [running]> on host DESKTOP-PEJJLJO.
+[2024-09-12T12:58:39.506-0300] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='dag_test' AIRFLOW_CTX_TASK_ID='get_data_from_gs' AIRFLOW_CTX_EXECUTION_DATE='2024-09-12T15:58:34.138349+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-09-12T15:58:34.138349+00:00'
+[2024-09-12T12:58:39.507-0300] {taskinstance.py:731} INFO - ::endgroup::
+[2024-09-12T12:58:39.517-0300] {connection.py:277} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2024-09-12T12:58:39.518-0300] {base.py:84} INFO - Retrieving connection 'google_cloud_default'
+[2024-09-12T12:58:40.328-0300] {dag_test.py:69} INFO - [['teste', 'teste2', 'teste3'], ['valor1', 'valor2', 'valor3'], ['produto', '147', 'fsoi3098313'], ['produto', '713', 'fsoi3098314'], ['produto', '174', 'fsoi3098315'], ['produto', '123', 'fsoi3098316'], ['produto', '423', 'fsoi3098317'], ['produto', '1234', 'fsoi3098318'], ['produto', '2234', 'fsoi3098319'], ['produto', '546', 'fsoi3098320'], ['produto', '143', 'fsoi3098321'], ['produto', '435', 'fsoi3098322'], ['produto', '6342', 'fsoi3098323']]
+[2024-09-12T12:58:40.328-0300] {python.py:240} INFO - Done. Returned value was: None
+[2024-09-12T12:58:40.335-0300] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-09-12T12:58:40.336-0300] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=dag_test, task_id=get_data_from_gs, run_id=manual__2024-09-12T15:58:34.138349+00:00, execution_date=20240912T155834, start_date=20240912T155839, end_date=20240912T155840
+[2024-09-12T12:58:40.371-0300] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-09-12T12:58:40.380-0300] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-09-12T12:58:40.380-0300] {local_task_job_runner.py:245} INFO - ::endgroup::

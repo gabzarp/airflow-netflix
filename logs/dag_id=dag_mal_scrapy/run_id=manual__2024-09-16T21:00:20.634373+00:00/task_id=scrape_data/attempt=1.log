@@ -1,0 +1,516 @@
+[2024-09-16T18:00:22.963-0300] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-09-16T18:00:22.972-0300] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_mal_scrapy.scrape_data manual__2024-09-16T21:00:20.634373+00:00 [queued]>
+[2024-09-16T18:00:22.978-0300] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_mal_scrapy.scrape_data manual__2024-09-16T21:00:20.634373+00:00 [queued]>
+[2024-09-16T18:00:22.978-0300] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2024-09-16T18:00:22.992-0300] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): scrape_data> on 2024-09-16 21:00:20.634373+00:00
+[2024-09-16T18:00:22.995-0300] {standard_task_runner.py:72} INFO - Started process 68945 to run task
+[2024-09-16T18:00:22.997-0300] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'dag_mal_scrapy', 'scrape_data', 'manual__2024-09-16T21:00:20.634373+00:00', '--job-id', '92', '--raw', '--subdir', 'DAGS_FOLDER/dag_mal_scrapy.py', '--cfg-path', '/tmp/tmpmk6fdgc4']
+[2024-09-16T18:00:22.998-0300] {standard_task_runner.py:105} INFO - Job 92: Subtask scrape_data
+[2024-09-16T18:00:23.020-0300] {task_command.py:467} INFO - Running <TaskInstance: dag_mal_scrapy.scrape_data manual__2024-09-16T21:00:20.634373+00:00 [running]> on host DESKTOP-PEJJLJO.
+[2024-09-16T18:00:23.072-0300] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='dag_mal_scrapy' AIRFLOW_CTX_TASK_ID='scrape_data' AIRFLOW_CTX_EXECUTION_DATE='2024-09-16T21:00:20.634373+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-09-16T21:00:20.634373+00:00'
+[2024-09-16T18:00:23.072-0300] {taskinstance.py:731} INFO - ::endgroup::
+[2024-09-16T18:00:23.081-0300] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-09-16T18:00:23.082-0300] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python3 ~/airflow/dags/mal_scrapy.py']
+[2024-09-16T18:00:23.089-0300] {subprocess.py:86} INFO - Output:
+[2024-09-16T18:00:23.441-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:23 [scrapy.utils.log] INFO: Scrapy 2.11.2 started (bot: scrapybot)
+[2024-09-16T18:00:23.442-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:23 [scrapy.utils.log] INFO: Versions: lxml 5.3.0.0, libxml2 2.12.9, cssselect 1.2.0, parsel 1.9.1, w3lib 2.2.1, Twisted 24.7.0, Python 3.10.12 (main, Jul 29 2024, 16:56:48) [GCC 11.4.0], pyOpenSSL 24.2.1 (OpenSSL 3.2.2 4 Jun 2024), cryptography 42.0.8, Platform Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.35
+[2024-09-16T18:00:23.444-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:23 [scrapy.addons] INFO: Enabled addons:
+[2024-09-16T18:00:23.445-0300] {subprocess.py:93} INFO - []
+[2024-09-16T18:00:23.445-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:23 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.epollreactor.EPollReactor
+[2024-09-16T18:00:23.452-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:23 [scrapy.extensions.telnet] INFO: Telnet Password: 6ee92e5f75abdc87
+[2024-09-16T18:00:23.481-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:23 [scrapy.middleware] INFO: Enabled extensions:
+[2024-09-16T18:00:23.481-0300] {subprocess.py:93} INFO - ['scrapy.extensions.corestats.CoreStats',
+[2024-09-16T18:00:23.481-0300] {subprocess.py:93} INFO -  'scrapy.extensions.telnet.TelnetConsole',
+[2024-09-16T18:00:23.481-0300] {subprocess.py:93} INFO -  'scrapy.extensions.memusage.MemoryUsage',
+[2024-09-16T18:00:23.481-0300] {subprocess.py:93} INFO -  'scrapy.extensions.logstats.LogStats']
+[2024-09-16T18:00:23.481-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:23 [scrapy.crawler] INFO: Overridden settings:
+[2024-09-16T18:00:23.481-0300] {subprocess.py:93} INFO - {'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7'}
+[2024-09-16T18:00:23.590-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:23 [scrapy.middleware] INFO: Enabled downloader middlewares:
+[2024-09-16T18:00:23.590-0300] {subprocess.py:93} INFO - ['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+[2024-09-16T18:00:23.590-0300] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+[2024-09-16T18:00:23.590-0300] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+[2024-09-16T18:00:23.590-0300] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+[2024-09-16T18:00:23.590-0300] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+[2024-09-16T18:00:23.590-0300] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+[2024-09-16T18:00:23.591-0300] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+[2024-09-16T18:00:23.591-0300] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+[2024-09-16T18:00:23.591-0300] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+[2024-09-16T18:00:23.591-0300] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+[2024-09-16T18:00:23.591-0300] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+[2024-09-16T18:00:23.591-0300] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.stats.DownloaderStats']
+[2024-09-16T18:00:23.591-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:23 [scrapy.middleware] INFO: Enabled spider middlewares:
+[2024-09-16T18:00:23.591-0300] {subprocess.py:93} INFO - ['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+[2024-09-16T18:00:23.591-0300] {subprocess.py:93} INFO -  'scrapy.spidermiddlewares.referer.RefererMiddleware',
+[2024-09-16T18:00:23.591-0300] {subprocess.py:93} INFO -  'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+[2024-09-16T18:00:23.591-0300] {subprocess.py:93} INFO -  'scrapy.spidermiddlewares.depth.DepthMiddleware']
+[2024-09-16T18:00:23.591-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:23 [scrapy.middleware] INFO: Enabled item pipelines:
+[2024-09-16T18:00:23.591-0300] {subprocess.py:93} INFO - []
+[2024-09-16T18:00:23.592-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:23 [scrapy.core.engine] INFO: Spider opened
+[2024-09-16T18:00:23.593-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:23 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+[2024-09-16T18:00:23.594-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:23 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+[2024-09-16T18:00:25.381-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php> (referer: None)
+[2024-09-16T18:00:26.042-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=50> (referer: https://myanimelist.net/topanime.php)
+[2024-09-16T18:00:26.630-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=100> (referer: https://myanimelist.net/topanime.php?limit=50)
+[2024-09-16T18:00:27.297-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=150> (referer: https://myanimelist.net/topanime.php?limit=100)
+[2024-09-16T18:00:28.335-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=200> (referer: https://myanimelist.net/topanime.php?limit=150)
+[2024-09-16T18:00:28.923-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=250> (referer: https://myanimelist.net/topanime.php?limit=200)
+[2024-09-16T18:00:29.506-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=300> (referer: https://myanimelist.net/topanime.php?limit=250)
+[2024-09-16T18:00:30.890-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=350> (referer: https://myanimelist.net/topanime.php?limit=300)
+[2024-09-16T18:00:31.861-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=400> (referer: https://myanimelist.net/topanime.php?limit=350)
+[2024-09-16T18:00:32.440-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=450> (referer: https://myanimelist.net/topanime.php?limit=400)
+[2024-09-16T18:00:33.017-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=500> (referer: https://myanimelist.net/topanime.php?limit=450)
+[2024-09-16T18:00:33.590-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=550> (referer: https://myanimelist.net/topanime.php?limit=500)
+[2024-09-16T18:00:34.577-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=600> (referer: https://myanimelist.net/topanime.php?limit=550)
+[2024-09-16T18:00:37.980-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=650> (referer: https://myanimelist.net/topanime.php?limit=600)
+[2024-09-16T18:00:39.353-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=700> (referer: https://myanimelist.net/topanime.php?limit=650)
+[2024-09-16T18:00:39.934-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=750> (referer: https://myanimelist.net/topanime.php?limit=700)
+[2024-09-16T18:00:40.887-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=800> (referer: https://myanimelist.net/topanime.php?limit=750)
+[2024-09-16T18:00:41.603-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=850> (referer: https://myanimelist.net/topanime.php?limit=800)
+[2024-09-16T18:00:42.197-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=900> (referer: https://myanimelist.net/topanime.php?limit=850)
+[2024-09-16T18:00:42.791-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=950> (referer: https://myanimelist.net/topanime.php?limit=900)
+[2024-09-16T18:00:44.133-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=1000> (referer: https://myanimelist.net/topanime.php?limit=950)
+[2024-09-16T18:00:45.184-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=1050> (referer: https://myanimelist.net/topanime.php?limit=1000)
+[2024-09-16T18:00:45.757-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=1100> (referer: https://myanimelist.net/topanime.php?limit=1050)
+[2024-09-16T18:00:46.322-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=1150> (referer: https://myanimelist.net/topanime.php?limit=1100)
+[2024-09-16T18:00:46.907-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=1200> (referer: https://myanimelist.net/topanime.php?limit=1150)
+[2024-09-16T18:00:47.471-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=1250> (referer: https://myanimelist.net/topanime.php?limit=1200)
+[2024-09-16T18:00:48.466-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=1300> (referer: https://myanimelist.net/topanime.php?limit=1250)
+[2024-09-16T18:00:49.047-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=1350> (referer: https://myanimelist.net/topanime.php?limit=1300)
+[2024-09-16T18:00:49.615-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=1400> (referer: https://myanimelist.net/topanime.php?limit=1350)
+[2024-09-16T18:00:51.216-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=1450> (referer: https://myanimelist.net/topanime.php?limit=1400)
+[2024-09-16T18:00:51.800-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=1500> (referer: https://myanimelist.net/topanime.php?limit=1450)
+[2024-09-16T18:00:52.432-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=1550> (referer: https://myanimelist.net/topanime.php?limit=1500)
+[2024-09-16T18:00:53.402-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=1600> (referer: https://myanimelist.net/topanime.php?limit=1550)
+[2024-09-16T18:00:53.980-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=1650> (referer: https://myanimelist.net/topanime.php?limit=1600)
+[2024-09-16T18:00:54.546-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=1700> (referer: https://myanimelist.net/topanime.php?limit=1650)
+[2024-09-16T18:00:55.109-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=1750> (referer: https://myanimelist.net/topanime.php?limit=1700)
+[2024-09-16T18:00:56.594-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=1800> (referer: https://myanimelist.net/topanime.php?limit=1750)
+[2024-09-16T18:00:57.170-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=1850> (referer: https://myanimelist.net/topanime.php?limit=1800)
+[2024-09-16T18:00:57.735-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=1900> (referer: https://myanimelist.net/topanime.php?limit=1850)
+[2024-09-16T18:00:58.309-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=1950> (referer: https://myanimelist.net/topanime.php?limit=1900)
+[2024-09-16T18:00:59.755-0300] {subprocess.py:93} INFO - 2024-09-16 18:00:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=2000> (referer: https://myanimelist.net/topanime.php?limit=1950)
+[2024-09-16T18:01:00.339-0300] {subprocess.py:93} INFO - 2024-09-16 18:01:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=2050> (referer: https://myanimelist.net/topanime.php?limit=2000)
+[2024-09-16T18:01:01.679-0300] {subprocess.py:93} INFO - 2024-09-16 18:01:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=2100> (referer: https://myanimelist.net/topanime.php?limit=2050)
+[2024-09-16T18:01:02.271-0300] {subprocess.py:93} INFO - 2024-09-16 18:01:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=2150> (referer: https://myanimelist.net/topanime.php?limit=2100)
+[2024-09-16T18:01:03.231-0300] {subprocess.py:93} INFO - 2024-09-16 18:01:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=2200> (referer: https://myanimelist.net/topanime.php?limit=2150)
+[2024-09-16T18:01:03.778-0300] {subprocess.py:93} INFO - 2024-09-16 18:01:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=2250> (referer: https://myanimelist.net/topanime.php?limit=2200)
+[2024-09-16T18:01:04.358-0300] {subprocess.py:93} INFO - 2024-09-16 18:01:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=2300> (referer: https://myanimelist.net/topanime.php?limit=2250)
+[2024-09-16T18:01:05.712-0300] {subprocess.py:93} INFO - 2024-09-16 18:01:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=2350> (referer: https://myanimelist.net/topanime.php?limit=2300)
+[2024-09-16T18:01:07.059-0300] {subprocess.py:93} INFO - 2024-09-16 18:01:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=2400> (referer: https://myanimelist.net/topanime.php?limit=2350)
+[2024-09-16T18:01:09.246-0300] {subprocess.py:93} INFO - 2024-09-16 18:01:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=2450> (referer: https://myanimelist.net/topanime.php?limit=2400)
+[2024-09-16T18:01:09.814-0300] {subprocess.py:93} INFO - 2024-09-16 18:01:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=2500> (referer: https://myanimelist.net/topanime.php?limit=2450)
+[2024-09-16T18:01:10.882-0300] {subprocess.py:93} INFO - 2024-09-16 18:01:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=2550> (referer: https://myanimelist.net/topanime.php?limit=2500)
+[2024-09-16T18:01:11.872-0300] {subprocess.py:93} INFO - 2024-09-16 18:01:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=2600> (referer: https://myanimelist.net/topanime.php?limit=2550)
+[2024-09-16T18:01:12.905-0300] {subprocess.py:93} INFO - 2024-09-16 18:01:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=2650> (referer: https://myanimelist.net/topanime.php?limit=2600)
+[2024-09-16T18:01:13.517-0300] {subprocess.py:93} INFO - 2024-09-16 18:01:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=2700> (referer: https://myanimelist.net/topanime.php?limit=2650)
+[2024-09-16T18:01:14.538-0300] {subprocess.py:93} INFO - 2024-09-16 18:01:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=2750> (referer: https://myanimelist.net/topanime.php?limit=2700)
+[2024-09-16T18:01:17.902-0300] {subprocess.py:93} INFO - 2024-09-16 18:01:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=2800> (referer: https://myanimelist.net/topanime.php?limit=2750)
+[2024-09-16T18:01:19.386-0300] {subprocess.py:93} INFO - 2024-09-16 18:01:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=2850> (referer: https://myanimelist.net/topanime.php?limit=2800)
+[2024-09-16T18:01:20.450-0300] {subprocess.py:93} INFO - 2024-09-16 18:01:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=2900> (referer: https://myanimelist.net/topanime.php?limit=2850)
+[2024-09-16T18:01:21.224-0300] {subprocess.py:93} INFO - 2024-09-16 18:01:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=2950> (referer: https://myanimelist.net/topanime.php?limit=2900)
+[2024-09-16T18:01:23.594-0300] {subprocess.py:93} INFO - 2024-09-16 18:01:23 [scrapy.extensions.logstats] INFO: Crawled 60 pages (at 60 pages/min), scraped 0 items (at 0 items/min)
+[2024-09-16T18:01:25.009-0300] {subprocess.py:93} INFO - 2024-09-16 18:01:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=3000> (referer: https://myanimelist.net/topanime.php?limit=2950)
+[2024-09-16T18:01:26.432-0300] {subprocess.py:93} INFO - 2024-09-16 18:01:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=3050> (referer: https://myanimelist.net/topanime.php?limit=3000)
+[2024-09-16T18:01:27.004-0300] {subprocess.py:93} INFO - 2024-09-16 18:01:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=3100> (referer: https://myanimelist.net/topanime.php?limit=3050)
+[2024-09-16T18:01:28.468-0300] {subprocess.py:93} INFO - 2024-09-16 18:01:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=3150> (referer: https://myanimelist.net/topanime.php?limit=3100)
+[2024-09-16T18:01:29.224-0300] {subprocess.py:93} INFO - 2024-09-16 18:01:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=3200> (referer: https://myanimelist.net/topanime.php?limit=3150)
+[2024-09-16T18:01:30.146-0300] {subprocess.py:93} INFO - 2024-09-16 18:01:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=3250> (referer: https://myanimelist.net/topanime.php?limit=3200)
+[2024-09-16T18:01:30.817-0300] {subprocess.py:93} INFO - 2024-09-16 18:01:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=3300> (referer: https://myanimelist.net/topanime.php?limit=3250)
+[2024-09-16T18:01:31.458-0300] {subprocess.py:93} INFO - 2024-09-16 18:01:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=3350> (referer: https://myanimelist.net/topanime.php?limit=3300)
+[2024-09-16T18:01:32.495-0300] {subprocess.py:93} INFO - 2024-09-16 18:01:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=3400> (referer: https://myanimelist.net/topanime.php?limit=3350)
+[2024-09-16T18:01:34.437-0300] {subprocess.py:93} INFO - 2024-09-16 18:01:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=3450> (referer: https://myanimelist.net/topanime.php?limit=3400)
+[2024-09-16T18:01:35.378-0300] {subprocess.py:93} INFO - 2024-09-16 18:01:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=3500> (referer: https://myanimelist.net/topanime.php?limit=3450)
+[2024-09-16T18:01:36.023-0300] {subprocess.py:93} INFO - 2024-09-16 18:01:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=3550> (referer: https://myanimelist.net/topanime.php?limit=3500)
+[2024-09-16T18:01:36.621-0300] {subprocess.py:93} INFO - 2024-09-16 18:01:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=3600> (referer: https://myanimelist.net/topanime.php?limit=3550)
+[2024-09-16T18:01:37.327-0300] {subprocess.py:93} INFO - 2024-09-16 18:01:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=3650> (referer: https://myanimelist.net/topanime.php?limit=3600)
+[2024-09-16T18:01:38.645-0300] {subprocess.py:93} INFO - 2024-09-16 18:01:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=3700> (referer: https://myanimelist.net/topanime.php?limit=3650)
+[2024-09-16T18:01:39.216-0300] {subprocess.py:93} INFO - 2024-09-16 18:01:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=3750> (referer: https://myanimelist.net/topanime.php?limit=3700)
+[2024-09-16T18:01:52.638-0300] {subprocess.py:93} INFO - 2024-09-16 18:01:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=3800> (referer: https://myanimelist.net/topanime.php?limit=3750)
+[2024-09-16T18:01:53.737-0300] {subprocess.py:93} INFO - 2024-09-16 18:01:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=3850> (referer: https://myanimelist.net/topanime.php?limit=3800)
+[2024-09-16T18:01:54.300-0300] {subprocess.py:93} INFO - 2024-09-16 18:01:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=3900> (referer: https://myanimelist.net/topanime.php?limit=3850)
+[2024-09-16T18:01:54.862-0300] {subprocess.py:93} INFO - 2024-09-16 18:01:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=3950> (referer: https://myanimelist.net/topanime.php?limit=3900)
+[2024-09-16T18:01:57.012-0300] {subprocess.py:93} INFO - 2024-09-16 18:01:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=4000> (referer: https://myanimelist.net/topanime.php?limit=3950)
+[2024-09-16T18:01:57.582-0300] {subprocess.py:93} INFO - 2024-09-16 18:01:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=4050> (referer: https://myanimelist.net/topanime.php?limit=4000)
+[2024-09-16T18:01:58.159-0300] {subprocess.py:93} INFO - 2024-09-16 18:01:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=4100> (referer: https://myanimelist.net/topanime.php?limit=4050)
+[2024-09-16T18:01:59.523-0300] {subprocess.py:93} INFO - 2024-09-16 18:01:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=4150> (referer: https://myanimelist.net/topanime.php?limit=4100)
+[2024-09-16T18:02:03.233-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=4200> (referer: https://myanimelist.net/topanime.php?limit=4150)
+[2024-09-16T18:02:04.246-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=4250> (referer: https://myanimelist.net/topanime.php?limit=4200)
+[2024-09-16T18:02:06.039-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=4300> (referer: https://myanimelist.net/topanime.php?limit=4250)
+[2024-09-16T18:02:06.996-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=4350> (referer: https://myanimelist.net/topanime.php?limit=4300)
+[2024-09-16T18:02:08.112-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=4400> (referer: https://myanimelist.net/topanime.php?limit=4350)
+[2024-09-16T18:02:09.454-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=4450> (referer: https://myanimelist.net/topanime.php?limit=4400)
+[2024-09-16T18:02:10.872-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=4500> (referer: https://myanimelist.net/topanime.php?limit=4450)
+[2024-09-16T18:02:11.484-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=4550> (referer: https://myanimelist.net/topanime.php?limit=4500)
+[2024-09-16T18:02:12.933-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=4600> (referer: https://myanimelist.net/topanime.php?limit=4550)
+[2024-09-16T18:02:13.498-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=4650> (referer: https://myanimelist.net/topanime.php?limit=4600)
+[2024-09-16T18:02:14.445-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=4700> (referer: https://myanimelist.net/topanime.php?limit=4650)
+[2024-09-16T18:02:16.253-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=4750> (referer: https://myanimelist.net/topanime.php?limit=4700)
+[2024-09-16T18:02:16.829-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=4800> (referer: https://myanimelist.net/topanime.php?limit=4750)
+[2024-09-16T18:02:17.402-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=4850> (referer: https://myanimelist.net/topanime.php?limit=4800)
+[2024-09-16T18:02:17.959-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=4900> (referer: https://myanimelist.net/topanime.php?limit=4850)
+[2024-09-16T18:02:18.683-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=4950> (referer: https://myanimelist.net/topanime.php?limit=4900)
+[2024-09-16T18:02:19.256-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=5000> (referer: https://myanimelist.net/topanime.php?limit=4950)
+[2024-09-16T18:02:21.531-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=5050> (referer: https://myanimelist.net/topanime.php?limit=5000)
+[2024-09-16T18:02:22.221-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=5100> (referer: https://myanimelist.net/topanime.php?limit=5050)
+[2024-09-16T18:02:22.905-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=5150> (referer: https://myanimelist.net/topanime.php?limit=5100)
+[2024-09-16T18:02:23.593-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=5200> (referer: https://myanimelist.net/topanime.php?limit=5150)
+[2024-09-16T18:02:23.594-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:23 [scrapy.extensions.logstats] INFO: Crawled 105 pages (at 45 pages/min), scraped 0 items (at 0 items/min)
+[2024-09-16T18:02:24.765-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=5250> (referer: https://myanimelist.net/topanime.php?limit=5200)
+[2024-09-16T18:02:25.744-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=5300> (referer: https://myanimelist.net/topanime.php?limit=5250)
+[2024-09-16T18:02:26.403-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=5350> (referer: https://myanimelist.net/topanime.php?limit=5300)
+[2024-09-16T18:02:27.092-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=5400> (referer: https://myanimelist.net/topanime.php?limit=5350)
+[2024-09-16T18:02:27.754-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=5450> (referer: https://myanimelist.net/topanime.php?limit=5400)
+[2024-09-16T18:02:29.272-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=5500> (referer: https://myanimelist.net/topanime.php?limit=5450)
+[2024-09-16T18:02:36.264-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=5550> (referer: https://myanimelist.net/topanime.php?limit=5500)
+[2024-09-16T18:02:36.940-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=5600> (referer: https://myanimelist.net/topanime.php?limit=5550)
+[2024-09-16T18:02:38.004-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=5650> (referer: https://myanimelist.net/topanime.php?limit=5600)
+[2024-09-16T18:02:39.082-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=5700> (referer: https://myanimelist.net/topanime.php?limit=5650)
+[2024-09-16T18:02:39.979-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=5750> (referer: https://myanimelist.net/topanime.php?limit=5700)
+[2024-09-16T18:02:41.457-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=5800> (referer: https://myanimelist.net/topanime.php?limit=5750)
+[2024-09-16T18:02:42.136-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=5850> (referer: https://myanimelist.net/topanime.php?limit=5800)
+[2024-09-16T18:02:43.619-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=5900> (referer: https://myanimelist.net/topanime.php?limit=5850)
+[2024-09-16T18:02:45.895-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=5950> (referer: https://myanimelist.net/topanime.php?limit=5900)
+[2024-09-16T18:02:46.948-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=6000> (referer: https://myanimelist.net/topanime.php?limit=5950)
+[2024-09-16T18:02:47.618-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=6050> (referer: https://myanimelist.net/topanime.php?limit=6000)
+[2024-09-16T18:02:49.068-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=6100> (referer: https://myanimelist.net/topanime.php?limit=6050)
+[2024-09-16T18:02:49.820-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=6150> (referer: https://myanimelist.net/topanime.php?limit=6100)
+[2024-09-16T18:02:51.292-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=6200> (referer: https://myanimelist.net/topanime.php?limit=6150)
+[2024-09-16T18:02:51.974-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=6250> (referer: https://myanimelist.net/topanime.php?limit=6200)
+[2024-09-16T18:02:53.512-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=6300> (referer: https://myanimelist.net/topanime.php?limit=6250)
+[2024-09-16T18:02:54.566-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=6350> (referer: https://myanimelist.net/topanime.php?limit=6300)
+[2024-09-16T18:02:55.653-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=6400> (referer: https://myanimelist.net/topanime.php?limit=6350)
+[2024-09-16T18:02:56.734-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=6450> (referer: https://myanimelist.net/topanime.php?limit=6400)
+[2024-09-16T18:02:57.470-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=6500> (referer: https://myanimelist.net/topanime.php?limit=6450)
+[2024-09-16T18:02:58.148-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=6550> (referer: https://myanimelist.net/topanime.php?limit=6500)
+[2024-09-16T18:02:58.811-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=6600> (referer: https://myanimelist.net/topanime.php?limit=6550)
+[2024-09-16T18:02:59.465-0300] {subprocess.py:93} INFO - 2024-09-16 18:02:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=6650> (referer: https://myanimelist.net/topanime.php?limit=6600)
+[2024-09-16T18:03:06.539-0300] {subprocess.py:93} INFO - 2024-09-16 18:03:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=6700> (referer: https://myanimelist.net/topanime.php?limit=6650)
+[2024-09-16T18:03:07.245-0300] {subprocess.py:93} INFO - 2024-09-16 18:03:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=6750> (referer: https://myanimelist.net/topanime.php?limit=6700)
+[2024-09-16T18:03:07.918-0300] {subprocess.py:93} INFO - 2024-09-16 18:03:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=6800> (referer: https://myanimelist.net/topanime.php?limit=6750)
+[2024-09-16T18:03:09.424-0300] {subprocess.py:93} INFO - 2024-09-16 18:03:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=6850> (referer: https://myanimelist.net/topanime.php?limit=6800)
+[2024-09-16T18:03:10.138-0300] {subprocess.py:93} INFO - 2024-09-16 18:03:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=6900> (referer: https://myanimelist.net/topanime.php?limit=6850)
+[2024-09-16T18:03:10.863-0300] {subprocess.py:93} INFO - 2024-09-16 18:03:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=6950> (referer: https://myanimelist.net/topanime.php?limit=6900)
+[2024-09-16T18:03:11.890-0300] {subprocess.py:93} INFO - 2024-09-16 18:03:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=7000> (referer: https://myanimelist.net/topanime.php?limit=6950)
+[2024-09-16T18:03:12.565-0300] {subprocess.py:93} INFO - 2024-09-16 18:03:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=7050> (referer: https://myanimelist.net/topanime.php?limit=7000)
+[2024-09-16T18:03:14.062-0300] {subprocess.py:93} INFO - 2024-09-16 18:03:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=7100> (referer: https://myanimelist.net/topanime.php?limit=7050)
+[2024-09-16T18:03:15.178-0300] {subprocess.py:93} INFO - 2024-09-16 18:03:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=7150> (referer: https://myanimelist.net/topanime.php?limit=7100)
+[2024-09-16T18:03:23.595-0300] {subprocess.py:93} INFO - 2024-09-16 18:03:23 [scrapy.extensions.logstats] INFO: Crawled 144 pages (at 39 pages/min), scraped 0 items (at 0 items/min)
+[2024-09-16T18:03:28.083-0300] {subprocess.py:93} INFO - 2024-09-16 18:03:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=7200> (referer: https://myanimelist.net/topanime.php?limit=7150)
+[2024-09-16T18:03:29.237-0300] {subprocess.py:93} INFO - 2024-09-16 18:03:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=7250> (referer: https://myanimelist.net/topanime.php?limit=7200)
+[2024-09-16T18:03:29.924-0300] {subprocess.py:93} INFO - 2024-09-16 18:03:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=7300> (referer: https://myanimelist.net/topanime.php?limit=7250)
+[2024-09-16T18:03:30.623-0300] {subprocess.py:93} INFO - 2024-09-16 18:03:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=7350> (referer: https://myanimelist.net/topanime.php?limit=7300)
+[2024-09-16T18:03:31.301-0300] {subprocess.py:93} INFO - 2024-09-16 18:03:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=7400> (referer: https://myanimelist.net/topanime.php?limit=7350)
+[2024-09-16T18:03:31.977-0300] {subprocess.py:93} INFO - 2024-09-16 18:03:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=7450> (referer: https://myanimelist.net/topanime.php?limit=7400)
+[2024-09-16T18:03:32.910-0300] {subprocess.py:93} INFO - 2024-09-16 18:03:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=7500> (referer: https://myanimelist.net/topanime.php?limit=7450)
+[2024-09-16T18:03:33.602-0300] {subprocess.py:93} INFO - 2024-09-16 18:03:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=7550> (referer: https://myanimelist.net/topanime.php?limit=7500)
+[2024-09-16T18:03:34.710-0300] {subprocess.py:93} INFO - 2024-09-16 18:03:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=7600> (referer: https://myanimelist.net/topanime.php?limit=7550)
+[2024-09-16T18:03:36.615-0300] {subprocess.py:93} INFO - 2024-09-16 18:03:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=7650> (referer: https://myanimelist.net/topanime.php?limit=7600)
+[2024-09-16T18:03:37.305-0300] {subprocess.py:93} INFO - 2024-09-16 18:03:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=7700> (referer: https://myanimelist.net/topanime.php?limit=7650)
+[2024-09-16T18:03:38.010-0300] {subprocess.py:93} INFO - 2024-09-16 18:03:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=7750> (referer: https://myanimelist.net/topanime.php?limit=7700)
+[2024-09-16T18:03:38.720-0300] {subprocess.py:93} INFO - 2024-09-16 18:03:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=7800> (referer: https://myanimelist.net/topanime.php?limit=7750)
+[2024-09-16T18:03:39.398-0300] {subprocess.py:93} INFO - 2024-09-16 18:03:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=7850> (referer: https://myanimelist.net/topanime.php?limit=7800)
+[2024-09-16T18:03:40.146-0300] {subprocess.py:93} INFO - 2024-09-16 18:03:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=7900> (referer: https://myanimelist.net/topanime.php?limit=7850)
+[2024-09-16T18:03:41.642-0300] {subprocess.py:93} INFO - 2024-09-16 18:03:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=7950> (referer: https://myanimelist.net/topanime.php?limit=7900)
+[2024-09-16T18:03:42.429-0300] {subprocess.py:93} INFO - 2024-09-16 18:03:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=8000> (referer: https://myanimelist.net/topanime.php?limit=7950)
+[2024-09-16T18:03:43.944-0300] {subprocess.py:93} INFO - 2024-09-16 18:03:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=8050> (referer: https://myanimelist.net/topanime.php?limit=8000)
+[2024-09-16T18:03:44.691-0300] {subprocess.py:93} INFO - 2024-09-16 18:03:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=8100> (referer: https://myanimelist.net/topanime.php?limit=8050)
+[2024-09-16T18:03:46.023-0300] {subprocess.py:93} INFO - 2024-09-16 18:03:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=8150> (referer: https://myanimelist.net/topanime.php?limit=8100)
+[2024-09-16T18:03:52.683-0300] {subprocess.py:93} INFO - 2024-09-16 18:03:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=8200> (referer: https://myanimelist.net/topanime.php?limit=8150)
+[2024-09-16T18:03:53.431-0300] {subprocess.py:93} INFO - 2024-09-16 18:03:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=8250> (referer: https://myanimelist.net/topanime.php?limit=8200)
+[2024-09-16T18:03:54.135-0300] {subprocess.py:93} INFO - 2024-09-16 18:03:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=8300> (referer: https://myanimelist.net/topanime.php?limit=8250)
+[2024-09-16T18:03:55.217-0300] {subprocess.py:93} INFO - 2024-09-16 18:03:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=8350> (referer: https://myanimelist.net/topanime.php?limit=8300)
+[2024-09-16T18:03:55.985-0300] {subprocess.py:93} INFO - 2024-09-16 18:03:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=8400> (referer: https://myanimelist.net/topanime.php?limit=8350)
+[2024-09-16T18:03:56.664-0300] {subprocess.py:93} INFO - 2024-09-16 18:03:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=8450> (referer: https://myanimelist.net/topanime.php?limit=8400)
+[2024-09-16T18:03:57.365-0300] {subprocess.py:93} INFO - 2024-09-16 18:03:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=8500> (referer: https://myanimelist.net/topanime.php?limit=8450)
+[2024-09-16T18:03:58.434-0300] {subprocess.py:93} INFO - 2024-09-16 18:03:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=8550> (referer: https://myanimelist.net/topanime.php?limit=8500)
+[2024-09-16T18:03:59.498-0300] {subprocess.py:93} INFO - 2024-09-16 18:03:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=8600> (referer: https://myanimelist.net/topanime.php?limit=8550)
+[2024-09-16T18:04:00.213-0300] {subprocess.py:93} INFO - 2024-09-16 18:04:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=8650> (referer: https://myanimelist.net/topanime.php?limit=8600)
+[2024-09-16T18:04:01.303-0300] {subprocess.py:93} INFO - 2024-09-16 18:04:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=8700> (referer: https://myanimelist.net/topanime.php?limit=8650)
+[2024-09-16T18:04:02.042-0300] {subprocess.py:93} INFO - 2024-09-16 18:04:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=8750> (referer: https://myanimelist.net/topanime.php?limit=8700)
+[2024-09-16T18:04:02.735-0300] {subprocess.py:93} INFO - 2024-09-16 18:04:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=8800> (referer: https://myanimelist.net/topanime.php?limit=8750)
+[2024-09-16T18:04:09.722-0300] {subprocess.py:93} INFO - 2024-09-16 18:04:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=8850> (referer: https://myanimelist.net/topanime.php?limit=8800)
+[2024-09-16T18:04:10.420-0300] {subprocess.py:93} INFO - 2024-09-16 18:04:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=8900> (referer: https://myanimelist.net/topanime.php?limit=8850)
+[2024-09-16T18:04:11.174-0300] {subprocess.py:93} INFO - 2024-09-16 18:04:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=8950> (referer: https://myanimelist.net/topanime.php?limit=8900)
+[2024-09-16T18:04:12.286-0300] {subprocess.py:93} INFO - 2024-09-16 18:04:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=9000> (referer: https://myanimelist.net/topanime.php?limit=8950)
+[2024-09-16T18:04:13.418-0300] {subprocess.py:93} INFO - 2024-09-16 18:04:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=9050> (referer: https://myanimelist.net/topanime.php?limit=9000)
+[2024-09-16T18:04:14.120-0300] {subprocess.py:93} INFO - 2024-09-16 18:04:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=9100> (referer: https://myanimelist.net/topanime.php?limit=9050)
+[2024-09-16T18:04:15.660-0300] {subprocess.py:93} INFO - 2024-09-16 18:04:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=9150> (referer: https://myanimelist.net/topanime.php?limit=9100)
+[2024-09-16T18:04:17.927-0300] {subprocess.py:93} INFO - 2024-09-16 18:04:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=9200> (referer: https://myanimelist.net/topanime.php?limit=9150)
+[2024-09-16T18:04:18.674-0300] {subprocess.py:93} INFO - 2024-09-16 18:04:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=9250> (referer: https://myanimelist.net/topanime.php?limit=9200)
+[2024-09-16T18:04:19.548-0300] {subprocess.py:93} INFO - 2024-09-16 18:04:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=9300> (referer: https://myanimelist.net/topanime.php?limit=9250)
+[2024-09-16T18:04:23.594-0300] {subprocess.py:93} INFO - 2024-09-16 18:04:23 [scrapy.extensions.logstats] INFO: Crawled 187 pages (at 43 pages/min), scraped 0 items (at 0 items/min)
+[2024-09-16T18:04:23.609-0300] {subprocess.py:93} INFO - 2024-09-16 18:04:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=9350> (referer: https://myanimelist.net/topanime.php?limit=9300)
+[2024-09-16T18:04:24.344-0300] {subprocess.py:93} INFO - 2024-09-16 18:04:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=9400> (referer: https://myanimelist.net/topanime.php?limit=9350)
+[2024-09-16T18:04:25.415-0300] {subprocess.py:93} INFO - 2024-09-16 18:04:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=9450> (referer: https://myanimelist.net/topanime.php?limit=9400)
+[2024-09-16T18:04:26.126-0300] {subprocess.py:93} INFO - 2024-09-16 18:04:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=9500> (referer: https://myanimelist.net/topanime.php?limit=9450)
+[2024-09-16T18:04:27.216-0300] {subprocess.py:93} INFO - 2024-09-16 18:04:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=9550> (referer: https://myanimelist.net/topanime.php?limit=9500)
+[2024-09-16T18:04:28.316-0300] {subprocess.py:93} INFO - 2024-09-16 18:04:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=9600> (referer: https://myanimelist.net/topanime.php?limit=9550)
+[2024-09-16T18:04:30.620-0300] {subprocess.py:93} INFO - 2024-09-16 18:04:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=9650> (referer: https://myanimelist.net/topanime.php?limit=9600)
+[2024-09-16T18:04:31.334-0300] {subprocess.py:93} INFO - 2024-09-16 18:04:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=9700> (referer: https://myanimelist.net/topanime.php?limit=9650)
+[2024-09-16T18:04:32.796-0300] {subprocess.py:93} INFO - 2024-09-16 18:04:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=9750> (referer: https://myanimelist.net/topanime.php?limit=9700)
+[2024-09-16T18:04:33.481-0300] {subprocess.py:93} INFO - 2024-09-16 18:04:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=9800> (referer: https://myanimelist.net/topanime.php?limit=9750)
+[2024-09-16T18:04:34.233-0300] {subprocess.py:93} INFO - 2024-09-16 18:04:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=9850> (referer: https://myanimelist.net/topanime.php?limit=9800)
+[2024-09-16T18:04:35.335-0300] {subprocess.py:93} INFO - 2024-09-16 18:04:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=9900> (referer: https://myanimelist.net/topanime.php?limit=9850)
+[2024-09-16T18:04:36.054-0300] {subprocess.py:93} INFO - 2024-09-16 18:04:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=9950> (referer: https://myanimelist.net/topanime.php?limit=9900)
+[2024-09-16T18:04:36.616-0300] {subprocess.py:93} INFO - 2024-09-16 18:04:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=10000> (referer: https://myanimelist.net/topanime.php?limit=9950)
+[2024-09-16T18:04:38.197-0300] {subprocess.py:93} INFO - 2024-09-16 18:04:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=10050> (referer: https://myanimelist.net/topanime.php?limit=10000)
+[2024-09-16T18:04:39.249-0300] {subprocess.py:93} INFO - 2024-09-16 18:04:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=10100> (referer: https://myanimelist.net/topanime.php?limit=10050)
+[2024-09-16T18:04:40.268-0300] {subprocess.py:93} INFO - 2024-09-16 18:04:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=10150> (referer: https://myanimelist.net/topanime.php?limit=10100)
+[2024-09-16T18:04:41.202-0300] {subprocess.py:93} INFO - 2024-09-16 18:04:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=10200> (referer: https://myanimelist.net/topanime.php?limit=10150)
+[2024-09-16T18:04:41.792-0300] {subprocess.py:93} INFO - 2024-09-16 18:04:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=10250> (referer: https://myanimelist.net/topanime.php?limit=10200)
+[2024-09-16T18:04:48.661-0300] {subprocess.py:93} INFO - 2024-09-16 18:04:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=10300> (referer: https://myanimelist.net/topanime.php?limit=10250)
+[2024-09-16T18:04:51.129-0300] {subprocess.py:93} INFO - 2024-09-16 18:04:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=10350> (referer: https://myanimelist.net/topanime.php?limit=10300)
+[2024-09-16T18:04:51.999-0300] {subprocess.py:93} INFO - 2024-09-16 18:04:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=10400> (referer: https://myanimelist.net/topanime.php?limit=10350)
+[2024-09-16T18:04:53.078-0300] {subprocess.py:93} INFO - 2024-09-16 18:04:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=10450> (referer: https://myanimelist.net/topanime.php?limit=10400)
+[2024-09-16T18:04:53.618-0300] {subprocess.py:93} INFO - 2024-09-16 18:04:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=10500> (referer: https://myanimelist.net/topanime.php?limit=10450)
+[2024-09-16T18:04:55.924-0300] {subprocess.py:93} INFO - 2024-09-16 18:04:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=10550> (referer: https://myanimelist.net/topanime.php?limit=10500)
+[2024-09-16T18:04:56.653-0300] {subprocess.py:93} INFO - 2024-09-16 18:04:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=10600> (referer: https://myanimelist.net/topanime.php?limit=10550)
+[2024-09-16T18:04:57.396-0300] {subprocess.py:93} INFO - 2024-09-16 18:04:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=10650> (referer: https://myanimelist.net/topanime.php?limit=10600)
+[2024-09-16T18:04:57.683-0300] {subprocess.py:93} INFO - 2024-09-16 18:04:57 [scrapy.core.engine] DEBUG: Crawled (405) <GET https://myanimelist.net/topanime.php?limit=10700> (referer: https://myanimelist.net/topanime.php?limit=10650)
+[2024-09-16T18:04:57.783-0300] {subprocess.py:93} INFO - 2024-09-16 18:04:57 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <405 https://myanimelist.net/topanime.php?limit=10700>: HTTP status code is not handled or not allowed
+[2024-09-16T18:04:57.793-0300] {subprocess.py:93} INFO - 2024-09-16 18:04:57 [scrapy.core.engine] INFO: Closing spider (finished)
+[2024-09-16T18:04:57.794-0300] {subprocess.py:93} INFO - 2024-09-16 18:04:57 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+[2024-09-16T18:04:57.794-0300] {subprocess.py:93} INFO - {'downloader/request_bytes': 96078,
+[2024-09-16T18:04:57.794-0300] {subprocess.py:93} INFO -  'downloader/request_count': 215,
+[2024-09-16T18:04:57.794-0300] {subprocess.py:93} INFO -  'downloader/request_method_count/GET': 215,
+[2024-09-16T18:04:57.794-0300] {subprocess.py:93} INFO -  'downloader/response_bytes': 35939790,
+[2024-09-16T18:04:57.794-0300] {subprocess.py:93} INFO -  'downloader/response_count': 215,
+[2024-09-16T18:04:57.794-0300] {subprocess.py:93} INFO -  'downloader/response_status_count/200': 214,
+[2024-09-16T18:04:57.794-0300] {subprocess.py:93} INFO -  'downloader/response_status_count/405': 1,
+[2024-09-16T18:04:57.794-0300] {subprocess.py:93} INFO -  'elapsed_time_seconds': 274.199508,
+[2024-09-16T18:04:57.794-0300] {subprocess.py:93} INFO -  'finish_reason': 'finished',
+[2024-09-16T18:04:57.794-0300] {subprocess.py:93} INFO -  'finish_time': datetime.datetime(2024, 9, 16, 21, 4, 57, 793214, tzinfo=datetime.timezone.utc),
+[2024-09-16T18:04:57.794-0300] {subprocess.py:93} INFO -  'httperror/response_ignored_count': 1,
+[2024-09-16T18:04:57.794-0300] {subprocess.py:93} INFO -  'httperror/response_ignored_status_count/405': 1,
+[2024-09-16T18:04:57.794-0300] {subprocess.py:93} INFO -  'log_count/DEBUG': 216,
+[2024-09-16T18:04:57.795-0300] {subprocess.py:93} INFO -  'log_count/INFO': 15,
+[2024-09-16T18:04:57.795-0300] {subprocess.py:93} INFO -  'memusage/max': 156065792,
+[2024-09-16T18:04:57.795-0300] {subprocess.py:93} INFO -  'memusage/startup': 104652800,
+[2024-09-16T18:04:57.795-0300] {subprocess.py:93} INFO -  'request_depth_max': 214,
+[2024-09-16T18:04:57.795-0300] {subprocess.py:93} INFO -  'response_received_count': 215,
+[2024-09-16T18:04:57.795-0300] {subprocess.py:93} INFO -  'scheduler/dequeued': 215,
+[2024-09-16T18:04:57.795-0300] {subprocess.py:93} INFO -  'scheduler/dequeued/memory': 215,
+[2024-09-16T18:04:57.795-0300] {subprocess.py:93} INFO -  'scheduler/enqueued': 215,
+[2024-09-16T18:04:57.795-0300] {subprocess.py:93} INFO -  'scheduler/enqueued/memory': 215,
+[2024-09-16T18:04:57.795-0300] {subprocess.py:93} INFO -  'start_time': datetime.datetime(2024, 9, 16, 21, 0, 23, 593706, tzinfo=datetime.timezone.utc)}
+[2024-09-16T18:04:57.795-0300] {subprocess.py:93} INFO - 2024-09-16 18:04:57 [scrapy.core.engine] INFO: Spider closed (finished)
+[2024-09-16T18:04:57.970-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.970-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.970-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.970-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.970-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.971-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.971-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.971-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.971-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.971-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.971-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.971-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.971-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.971-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.971-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.971-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.971-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.971-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.971-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.971-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.971-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.972-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.972-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.972-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.972-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.972-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.972-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.972-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.972-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.972-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.972-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.972-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.972-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.973-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.973-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.973-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.973-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.973-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.973-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.973-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.973-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.973-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.973-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.973-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.973-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.973-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.973-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.973-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.973-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.973-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.974-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.974-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.974-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.974-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.974-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.974-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.974-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.974-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.974-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.974-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.974-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.974-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.974-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.974-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.974-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.974-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.975-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.975-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.975-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.975-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.975-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.975-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.975-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.975-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.975-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.975-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.975-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.975-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.975-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.975-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.975-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.975-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.976-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.976-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.976-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.976-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.976-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.976-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.976-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.976-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.976-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.976-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.976-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.976-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.976-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.976-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.977-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.977-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.977-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.977-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.977-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.977-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.977-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.977-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.977-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.977-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.977-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.977-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.977-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.977-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.977-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.977-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.978-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.978-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.978-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.978-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.978-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.978-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.978-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.978-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.978-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.978-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.978-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.978-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.978-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.978-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.978-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.978-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.979-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.979-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.979-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.979-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.979-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.979-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.979-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.979-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.979-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.979-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.979-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.979-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.979-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.979-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.979-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.979-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.980-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.980-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.980-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.980-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.980-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.980-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.980-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.980-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.980-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.980-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.980-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.980-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.980-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.980-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.980-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.980-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.981-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.981-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.981-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.981-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.981-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.981-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.981-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.981-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.981-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.981-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.981-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.981-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.981-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.981-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.981-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.981-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.982-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.982-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.982-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.982-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.982-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.982-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.982-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.982-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.982-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.982-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.982-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.982-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.982-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.982-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.982-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.982-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.983-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.983-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.983-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.983-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.983-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.983-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.983-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.983-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.983-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.983-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.983-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.983-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.983-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.983-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.983-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.983-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.984-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.984-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.984-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.984-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.984-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:57.984-0300] {subprocess.py:93} INFO - <class 'list'>
+[2024-09-16T18:04:58.108-0300] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-09-16T18:04:58.122-0300] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-09-16T18:04:58.123-0300] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=dag_mal_scrapy, task_id=scrape_data, run_id=manual__2024-09-16T21:00:20.634373+00:00, execution_date=20240916T210020, start_date=20240916T210022, end_date=20240916T210458
+[2024-09-16T18:04:58.203-0300] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-09-16T18:04:58.210-0300] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-09-16T18:04:58.210-0300] {local_task_job_runner.py:245} INFO - ::endgroup::

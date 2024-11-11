@@ -1,0 +1,192 @@
+[2024-09-16T20:57:16.056-0300] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-09-16T20:57:16.073-0300] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_mal_scrapy.scrape_data manual__2024-09-16T23:57:13.698506+00:00 [queued]>
+[2024-09-16T20:57:16.086-0300] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_mal_scrapy.scrape_data manual__2024-09-16T23:57:13.698506+00:00 [queued]>
+[2024-09-16T20:57:16.086-0300] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2024-09-16T20:57:16.109-0300] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): scrape_data> on 2024-09-16 23:57:13.698506+00:00
+[2024-09-16T20:57:16.115-0300] {standard_task_runner.py:72} INFO - Started process 135376 to run task
+[2024-09-16T20:57:16.122-0300] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'dag_mal_scrapy', 'scrape_data', 'manual__2024-09-16T23:57:13.698506+00:00', '--job-id', '99', '--raw', '--subdir', 'DAGS_FOLDER/dag_mal_scrapy.py', '--cfg-path', '/tmp/tmp0a2dg42b']
+[2024-09-16T20:57:16.125-0300] {standard_task_runner.py:105} INFO - Job 99: Subtask scrape_data
+[2024-09-16T20:57:16.163-0300] {task_command.py:467} INFO - Running <TaskInstance: dag_mal_scrapy.scrape_data manual__2024-09-16T23:57:13.698506+00:00 [running]> on host DESKTOP-PEJJLJO.
+[2024-09-16T20:57:16.220-0300] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='dag_mal_scrapy' AIRFLOW_CTX_TASK_ID='scrape_data' AIRFLOW_CTX_EXECUTION_DATE='2024-09-16T23:57:13.698506+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-09-16T23:57:13.698506+00:00'
+[2024-09-16T20:57:16.221-0300] {taskinstance.py:731} INFO - ::endgroup::
+[2024-09-16T20:57:16.232-0300] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-09-16T20:57:16.234-0300] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python3 ~/airflow/python/mal_scrapy.py']
+[2024-09-16T20:57:16.243-0300] {subprocess.py:86} INFO - Output:
+[2024-09-16T20:57:16.702-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [scrapy.utils.log] INFO: Scrapy 2.11.2 started (bot: scrapybot)
+[2024-09-16T20:57:16.704-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [scrapy.utils.log] INFO: Versions: lxml 5.3.0.0, libxml2 2.12.9, cssselect 1.2.0, parsel 1.9.1, w3lib 2.2.1, Twisted 24.7.0, Python 3.10.12 (main, Jul 29 2024, 16:56:48) [GCC 11.4.0], pyOpenSSL 24.2.1 (OpenSSL 3.2.2 4 Jun 2024), cryptography 42.0.8, Platform Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.35
+[2024-09-16T20:57:16.706-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [scrapy.addons] INFO: Enabled addons:
+[2024-09-16T20:57:16.706-0300] {subprocess.py:93} INFO - []
+[2024-09-16T20:57:16.707-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.epollreactor.EPollReactor
+[2024-09-16T20:57:16.715-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [scrapy.extensions.telnet] INFO: Telnet Password: e4ab182e949d5f77
+[2024-09-16T20:57:16.753-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [scrapy.middleware] INFO: Enabled extensions:
+[2024-09-16T20:57:16.754-0300] {subprocess.py:93} INFO - ['scrapy.extensions.corestats.CoreStats',
+[2024-09-16T20:57:16.754-0300] {subprocess.py:93} INFO -  'scrapy.extensions.telnet.TelnetConsole',
+[2024-09-16T20:57:16.754-0300] {subprocess.py:93} INFO -  'scrapy.extensions.memusage.MemoryUsage',
+[2024-09-16T20:57:16.754-0300] {subprocess.py:93} INFO -  'scrapy.extensions.logstats.LogStats']
+[2024-09-16T20:57:16.754-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [scrapy.crawler] INFO: Overridden settings:
+[2024-09-16T20:57:16.754-0300] {subprocess.py:93} INFO - {'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7'}
+[2024-09-16T20:57:16.827-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Not in REPL -> leaving logger event level as is.
+[2024-09-16T20:57:16.827-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [scrapy_fake_useragent.middleware] INFO: Error loading User-Agent provider: scrapy_fake_useragent.providers.FakeUserAgentProvider
+[2024-09-16T20:57:16.828-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.address`.
+[2024-09-16T20:57:16.830-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Provider `faker.providers.address` has been localized to `en_US`.
+[2024-09-16T20:57:16.831-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.automotive`.
+[2024-09-16T20:57:16.832-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Provider `faker.providers.automotive` has been localized to `en_US`.
+[2024-09-16T20:57:16.833-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.bank`.
+[2024-09-16T20:57:16.834-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+[2024-09-16T20:57:16.834-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.barcode`.
+[2024-09-16T20:57:16.834-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Provider `faker.providers.barcode` has been localized to `en_US`.
+[2024-09-16T20:57:16.835-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.color`.
+[2024-09-16T20:57:16.836-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Provider `faker.providers.color` has been localized to `en_US`.
+[2024-09-16T20:57:16.836-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.company`.
+[2024-09-16T20:57:16.837-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Provider `faker.providers.company` has been localized to `en_US`.
+[2024-09-16T20:57:16.837-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.credit_card`.
+[2024-09-16T20:57:16.837-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Provider `faker.providers.credit_card` has been localized to `en_US`.
+[2024-09-16T20:57:16.837-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.currency`.
+[2024-09-16T20:57:16.838-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Provider `faker.providers.currency` has been localized to `en_US`.
+[2024-09-16T20:57:16.838-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.date_time`.
+[2024-09-16T20:57:16.839-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Provider `faker.providers.date_time` has been localized to `en_US`.
+[2024-09-16T20:57:16.839-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Provider `faker.providers.emoji` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2024-09-16T20:57:16.840-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2024-09-16T20:57:16.840-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.geo`.
+[2024-09-16T20:57:16.840-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Provider `faker.providers.geo` has been localized to `en_US`.
+[2024-09-16T20:57:16.840-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.internet`.
+[2024-09-16T20:57:16.841-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Provider `faker.providers.internet` has been localized to `en_US`.
+[2024-09-16T20:57:16.842-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.isbn`.
+[2024-09-16T20:57:16.842-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Provider `faker.providers.isbn` has been localized to `en_US`.
+[2024-09-16T20:57:16.842-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.job`.
+[2024-09-16T20:57:16.843-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Provider `faker.providers.job` has been localized to `en_US`.
+[2024-09-16T20:57:16.844-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.lorem`.
+[2024-09-16T20:57:16.845-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Provider `faker.providers.lorem` has been localized to `en_US`.
+[2024-09-16T20:57:16.846-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.misc`.
+[2024-09-16T20:57:16.846-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Provider `faker.providers.misc` has been localized to `en_US`.
+[2024-09-16T20:57:16.847-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.passport`.
+[2024-09-16T20:57:16.847-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Provider `faker.providers.passport` has been localized to `en_US`.
+[2024-09-16T20:57:16.847-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.person`.
+[2024-09-16T20:57:16.849-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Provider `faker.providers.person` has been localized to `en_US`.
+[2024-09-16T20:57:16.852-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.phone_number`.
+[2024-09-16T20:57:16.853-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Provider `faker.providers.phone_number` has been localized to `en_US`.
+[2024-09-16T20:57:16.854-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2024-09-16T20:57:16.854-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2024-09-16T20:57:16.854-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Provider `faker.providers.sbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2024-09-16T20:57:16.854-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.ssn`.
+[2024-09-16T20:57:16.856-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Provider `faker.providers.ssn` has been localized to `en_US`.
+[2024-09-16T20:57:16.857-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2024-09-16T20:57:16.857-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [scrapy_fake_useragent.middleware] DEBUG: Loaded User-Agent provider: scrapy_fake_useragent.providers.FakerProvider
+[2024-09-16T20:57:16.857-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [scrapy_fake_useragent.middleware] INFO: Using '<class 'scrapy_fake_useragent.providers.FakerProvider'>' as the User-Agent provider
+[2024-09-16T20:57:16.857-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [scrapy_fake_useragent.middleware] INFO: Error loading User-Agent provider: scrapy_fake_useragent.providers.FakeUserAgentProvider
+[2024-09-16T20:57:16.858-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.address`.
+[2024-09-16T20:57:16.859-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Provider `faker.providers.address` has been localized to `en_US`.
+[2024-09-16T20:57:16.860-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.automotive`.
+[2024-09-16T20:57:16.861-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Provider `faker.providers.automotive` has been localized to `en_US`.
+[2024-09-16T20:57:16.861-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.bank`.
+[2024-09-16T20:57:16.862-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+[2024-09-16T20:57:16.862-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.barcode`.
+[2024-09-16T20:57:16.862-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Provider `faker.providers.barcode` has been localized to `en_US`.
+[2024-09-16T20:57:16.862-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.color`.
+[2024-09-16T20:57:16.863-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Provider `faker.providers.color` has been localized to `en_US`.
+[2024-09-16T20:57:16.863-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.company`.
+[2024-09-16T20:57:16.864-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Provider `faker.providers.company` has been localized to `en_US`.
+[2024-09-16T20:57:16.865-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.credit_card`.
+[2024-09-16T20:57:16.865-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Provider `faker.providers.credit_card` has been localized to `en_US`.
+[2024-09-16T20:57:16.865-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.currency`.
+[2024-09-16T20:57:16.865-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Provider `faker.providers.currency` has been localized to `en_US`.
+[2024-09-16T20:57:16.866-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.date_time`.
+[2024-09-16T20:57:16.866-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Provider `faker.providers.date_time` has been localized to `en_US`.
+[2024-09-16T20:57:16.866-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Provider `faker.providers.emoji` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2024-09-16T20:57:16.867-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2024-09-16T20:57:16.867-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.geo`.
+[2024-09-16T20:57:16.867-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Provider `faker.providers.geo` has been localized to `en_US`.
+[2024-09-16T20:57:16.867-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.internet`.
+[2024-09-16T20:57:16.868-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Provider `faker.providers.internet` has been localized to `en_US`.
+[2024-09-16T20:57:16.869-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.isbn`.
+[2024-09-16T20:57:16.869-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Provider `faker.providers.isbn` has been localized to `en_US`.
+[2024-09-16T20:57:16.869-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.job`.
+[2024-09-16T20:57:16.870-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Provider `faker.providers.job` has been localized to `en_US`.
+[2024-09-16T20:57:16.871-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.lorem`.
+[2024-09-16T20:57:16.871-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Provider `faker.providers.lorem` has been localized to `en_US`.
+[2024-09-16T20:57:16.871-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.misc`.
+[2024-09-16T20:57:16.871-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Provider `faker.providers.misc` has been localized to `en_US`.
+[2024-09-16T20:57:16.872-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.passport`.
+[2024-09-16T20:57:16.872-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Provider `faker.providers.passport` has been localized to `en_US`.
+[2024-09-16T20:57:16.872-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.person`.
+[2024-09-16T20:57:16.873-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Provider `faker.providers.person` has been localized to `en_US`.
+[2024-09-16T20:57:16.873-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.phone_number`.
+[2024-09-16T20:57:16.875-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Provider `faker.providers.phone_number` has been localized to `en_US`.
+[2024-09-16T20:57:16.875-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2024-09-16T20:57:16.875-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2024-09-16T20:57:16.875-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Provider `faker.providers.sbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2024-09-16T20:57:16.875-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Looking for locale `en_US` in provider `faker.providers.ssn`.
+[2024-09-16T20:57:16.876-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Provider `faker.providers.ssn` has been localized to `en_US`.
+[2024-09-16T20:57:16.877-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [faker.factory] DEBUG: Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[2024-09-16T20:57:16.877-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [scrapy_fake_useragent.middleware] DEBUG: Loaded User-Agent provider: scrapy_fake_useragent.providers.FakerProvider
+[2024-09-16T20:57:16.877-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [scrapy_fake_useragent.middleware] INFO: Using '<class 'scrapy_fake_useragent.providers.FakerProvider'>' as the User-Agent provider
+[2024-09-16T20:57:16.885-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [scrapy.middleware] INFO: Enabled downloader middlewares:
+[2024-09-16T20:57:16.886-0300] {subprocess.py:93} INFO - ['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+[2024-09-16T20:57:16.886-0300] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+[2024-09-16T20:57:16.886-0300] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+[2024-09-16T20:57:16.886-0300] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+[2024-09-16T20:57:16.886-0300] {subprocess.py:93} INFO -  'scrapy_fake_useragent.middleware.RandomUserAgentMiddleware',
+[2024-09-16T20:57:16.886-0300] {subprocess.py:93} INFO -  'scrapy_fake_useragent.middleware.RetryUserAgentMiddleware',
+[2024-09-16T20:57:16.886-0300] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+[2024-09-16T20:57:16.886-0300] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+[2024-09-16T20:57:16.886-0300] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+[2024-09-16T20:57:16.886-0300] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+[2024-09-16T20:57:16.886-0300] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+[2024-09-16T20:57:16.886-0300] {subprocess.py:93} INFO -  'scrapy.downloadermiddlewares.stats.DownloaderStats']
+[2024-09-16T20:57:16.886-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [scrapy.middleware] INFO: Enabled spider middlewares:
+[2024-09-16T20:57:16.886-0300] {subprocess.py:93} INFO - ['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+[2024-09-16T20:57:16.887-0300] {subprocess.py:93} INFO -  'scrapy.spidermiddlewares.referer.RefererMiddleware',
+[2024-09-16T20:57:16.887-0300] {subprocess.py:93} INFO -  'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+[2024-09-16T20:57:16.887-0300] {subprocess.py:93} INFO -  'scrapy.spidermiddlewares.depth.DepthMiddleware']
+[2024-09-16T20:57:16.887-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [scrapy.middleware] INFO: Enabled item pipelines:
+[2024-09-16T20:57:16.887-0300] {subprocess.py:93} INFO - []
+[2024-09-16T20:57:16.887-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [scrapy.core.engine] INFO: Spider opened
+[2024-09-16T20:57:16.890-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+[2024-09-16T20:57:16.890-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:16 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+[2024-09-16T20:57:17.796-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php> (referer: None)
+[2024-09-16T20:57:19.949-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=50> (referer: https://myanimelist.net/topanime.php)
+[2024-09-16T20:57:22.639-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=100> (referer: https://myanimelist.net/topanime.php?limit=50)
+[2024-09-16T20:57:25.469-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=150> (referer: https://myanimelist.net/topanime.php?limit=100)
+[2024-09-16T20:57:27.444-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=200> (referer: https://myanimelist.net/topanime.php?limit=150)
+[2024-09-16T20:57:30.295-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=250> (referer: https://myanimelist.net/topanime.php?limit=200)
+[2024-09-16T20:57:32.054-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=300> (referer: https://myanimelist.net/topanime.php?limit=250)
+[2024-09-16T20:57:34.592-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=350> (referer: https://myanimelist.net/topanime.php?limit=300)
+[2024-09-16T20:57:37.017-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://myanimelist.net/topanime.php?limit=400> (referer: https://myanimelist.net/topanime.php?limit=350)
+[2024-09-16T20:57:37.125-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:37 [scrapy.core.engine] INFO: Closing spider (finished)
+[2024-09-16T20:57:37.126-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:37 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+[2024-09-16T20:57:37.126-0300] {subprocess.py:93} INFO - {'downloader/request_bytes': 4223,
+[2024-09-16T20:57:37.126-0300] {subprocess.py:93} INFO -  'downloader/request_count': 9,
+[2024-09-16T20:57:37.126-0300] {subprocess.py:93} INFO -  'downloader/request_method_count/GET': 9,
+[2024-09-16T20:57:37.126-0300] {subprocess.py:93} INFO -  'downloader/response_bytes': 1455782,
+[2024-09-16T20:57:37.126-0300] {subprocess.py:93} INFO -  'downloader/response_count': 9,
+[2024-09-16T20:57:37.126-0300] {subprocess.py:93} INFO -  'downloader/response_status_count/200': 9,
+[2024-09-16T20:57:37.126-0300] {subprocess.py:93} INFO -  'elapsed_time_seconds': 20.236108,
+[2024-09-16T20:57:37.126-0300] {subprocess.py:93} INFO -  'finish_reason': 'finished',
+[2024-09-16T20:57:37.127-0300] {subprocess.py:93} INFO -  'finish_time': datetime.datetime(2024, 9, 16, 23, 57, 37, 125837, tzinfo=datetime.timezone.utc),
+[2024-09-16T20:57:37.127-0300] {subprocess.py:93} INFO -  'log_count/DEBUG': 101,
+[2024-09-16T20:57:37.127-0300] {subprocess.py:93} INFO -  'log_count/INFO': 14,
+[2024-09-16T20:57:37.127-0300] {subprocess.py:93} INFO -  'memusage/max': 116240384,
+[2024-09-16T20:57:37.127-0300] {subprocess.py:93} INFO -  'memusage/startup': 116240384,
+[2024-09-16T20:57:37.127-0300] {subprocess.py:93} INFO -  'request_depth_max': 8,
+[2024-09-16T20:57:37.127-0300] {subprocess.py:93} INFO -  'response_received_count': 9,
+[2024-09-16T20:57:37.127-0300] {subprocess.py:93} INFO -  'scheduler/dequeued': 9,
+[2024-09-16T20:57:37.127-0300] {subprocess.py:93} INFO -  'scheduler/dequeued/memory': 9,
+[2024-09-16T20:57:37.127-0300] {subprocess.py:93} INFO -  'scheduler/enqueued': 9,
+[2024-09-16T20:57:37.127-0300] {subprocess.py:93} INFO -  'scheduler/enqueued/memory': 9,
+[2024-09-16T20:57:37.127-0300] {subprocess.py:93} INFO -  'start_time': datetime.datetime(2024, 9, 16, 23, 57, 16, 889729, tzinfo=datetime.timezone.utc)}
+[2024-09-16T20:57:37.128-0300] {subprocess.py:93} INFO - 2024-09-16 20:57:37 [scrapy.core.engine] INFO: Spider closed (finished)
+[2024-09-16T20:57:37.246-0300] {subprocess.py:93} INFO - ?limit=50
+[2024-09-16T20:57:37.246-0300] {subprocess.py:93} INFO - ?limit=100
+[2024-09-16T20:57:37.246-0300] {subprocess.py:93} INFO - ?limit=150
+[2024-09-16T20:57:37.247-0300] {subprocess.py:93} INFO - ?limit=200
+[2024-09-16T20:57:37.247-0300] {subprocess.py:93} INFO - ?limit=250
+[2024-09-16T20:57:37.247-0300] {subprocess.py:93} INFO - ?limit=300
+[2024-09-16T20:57:37.247-0300] {subprocess.py:93} INFO - ?limit=350
+[2024-09-16T20:57:37.247-0300] {subprocess.py:93} INFO - ?limit=400
+[2024-09-16T20:57:37.247-0300] {subprocess.py:93} INFO - None
+[2024-09-16T20:57:37.484-0300] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-09-16T20:57:37.502-0300] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-09-16T20:57:37.502-0300] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=dag_mal_scrapy, task_id=scrape_data, run_id=manual__2024-09-16T23:57:13.698506+00:00, execution_date=20240916T235713, start_date=20240916T235716, end_date=20240916T235737
+[2024-09-16T20:57:37.521-0300] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-09-16T20:57:37.528-0300] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-09-16T20:57:37.529-0300] {local_task_job_runner.py:245} INFO - ::endgroup::
